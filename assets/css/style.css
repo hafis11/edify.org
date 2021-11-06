@@ -389,13 +389,12 @@ a.learn-more {
   padding: 160px 0px 120px;
 }
 
-.banner-bg {
+/* .banner-bg {
   background: url("../img/bg/banner-1.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   position: relative;
-  /* height: 100vh; */
-}
+} */
 
 .dark-overlay {
   position: absolute;
