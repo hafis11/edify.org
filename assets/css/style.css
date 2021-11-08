@@ -195,6 +195,54 @@ input:-webkit-autofill:focus {
   color: #ffffff;
 }
 
+.login-btn {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  border: none;
+  outline: none !important;
+  background-color: #00E676;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px 50px 12px;
+  border-radius: 8px;
+  transition: all 0.3s linear;
+  overflow: hidden;
+  letter-spacing: 0.1em;
+  z-index: 1;
+}
+
+.login-btn:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: #1B5E20;
+  transition-delay: 0.1s;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+  transition-property: all;
+  opacity: 1;
+  transform-origin: top;
+  transform-style: preserve-3d;
+  transform: scaleY(0);
+  z-index: -1;
+}
+
+.login-btn:hover:after {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.login-btn:hover {
+  color: #ffffff;
+}
+
 .btn {
   color: #fff;
   font-weight: 700;
@@ -533,7 +581,7 @@ a.learn-more {
   margin-left: 29px;
 }
 
-.main-menu__right-search-box .thm-btn {
+.main-menu__right-search-box .login-btn {
   font-size: 12px;
   padding: 5px 30px 2px;
 }
