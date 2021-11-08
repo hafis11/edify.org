@@ -279,6 +279,7 @@ input:-webkit-autofill:focus {
   padding-top: 40px;
   margin-bottom: 30px;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .m-auto {
@@ -818,6 +819,7 @@ HOME SLIDER
   font-weight: 400;
   font-size: 16px;
   margin-bottom: 10px;
+  line-height: 2;
 }
 
 .main-banner-coontent p {
