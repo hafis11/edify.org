@@ -944,7 +944,7 @@ FEATURE SECTION
 ---------------------------*/
 
 .bg-dark {
-  background: #111 !important;
+  background: #002f6c !important;
 }
 
 .feature-box {
@@ -1235,7 +1235,7 @@ FEATURE SECTION
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 50%;
+  width: 54.6%;
   background: #2c30f7;
   height: 100%;
 }
@@ -1258,6 +1258,7 @@ FEATURE SECTION
 
 #about-carousel {
   margin-top: 40px;
+  margin-left: 40px;
 }
 
 .btn-trans-white {
@@ -1292,6 +1293,7 @@ FEATURE SECTION
     Why Choose
 =============================================
 ***/
+
 .why-choose-one {
   position: relative;
   display: block;
@@ -1305,9 +1307,9 @@ FEATURE SECTION
   bottom: 0;
   right: 0;
   background: #f1f2f6;
-  width: 43%;
+  width: 45.4%;
   border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+  /* border-bottom-left-radius: 8px; */
   content: "";
 }
 
@@ -1316,6 +1318,13 @@ FEATURE SECTION
   display: block;
   max-width: 490px;
   width: 100%;
+}
+
+.why-choose-one__left .shape1 {
+  position: absolute;
+  bottom: 290px;
+  left: -621px;
+  z-index: 0;
 }
 
 .why-choose-one__left-text {
@@ -2525,6 +2534,9 @@ button:hover {
 .service-block h4 {
   color: #fff;
   margin-bottom: 10px;
+}
+.service-block p {
+  color: rgb(218, 218, 218);
 }
 
 /*------------------------------
