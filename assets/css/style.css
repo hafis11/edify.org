@@ -202,7 +202,7 @@ input:-webkit-autofill:focus {
   -webkit-appearance: none;
   border: none;
   outline: none !important;
-  background-color: #00E676;
+  background-color: #00e676;
   color: #000000;
   font-size: 14px;
   font-weight: 700;
@@ -222,7 +222,7 @@ input:-webkit-autofill:focus {
   left: 0;
   right: 0;
   height: 100%;
-  background: #1B5E20;
+  background: #1b5e20;
   transition-delay: 0.1s;
   transition-timing-function: ease-in-out;
   transition-duration: 0.5s;
@@ -463,8 +463,6 @@ a.learn-more {
   background: rgba(0, 0, 0, 0.7);
 }
 
-
-
 /*------------------------
  MAIN NAVIGATION
 -------------------------------*/
@@ -492,18 +490,15 @@ a.learn-more {
   padding-top: 20px;
 }
 
-
 .site-navigation.white {
   padding-top: 30px;
 }
-
 
 .site-navigation.white .navbar-nav li a {
   color: #fff;
   font-weight: 400;
   position: relative;
 }
-
 
 .site-navigation.white .navbar-nav li a:after {
   position: absolute;
@@ -515,11 +510,9 @@ a.learn-more {
   background: #555;
 }
 
-
 .dropdown-toggle::after {
   display: none !important;
 }
-
 
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 20px;
@@ -548,9 +541,9 @@ a.learn-more {
 .dropdown .dropdown-menu {
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: all .3s ease 0s;
-  -o-transition: all .3s ease 0s;
-  transition: all .3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
   border-radius: 0px;
   border: 0px;
   min-width: 250px;
@@ -564,12 +557,10 @@ a.learn-more {
   box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
 }
 
-
 .dropdown .dropdown-menu a {
   padding: 15px 20px !important;
   text-align: left !important;
 }
-
 
 .site-navigation.white .navbar-nav .dropdown .dropdown-menu a {
   color: #000;
@@ -585,7 +576,6 @@ a.learn-more {
   font-size: 12px;
   padding: 5px 30px 2px;
 }
-
 
 /*--------------------------
 TOP SOCIAL
@@ -1231,6 +1221,70 @@ FEATURE SECTION
   position: relative;
   display: block;
   margin-top: 54px;
+}
+
+/*----------------------------
+ ABOUT SECTION
+----------------------------*/
+
+#about {
+  position: relative;
+}
+
+.about-bg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 50%;
+  background: #2c30f7;
+  height: 100%;
+}
+
+.about-block {
+  padding-top: 65px;
+  color: #fff;
+  padding-right: 40px;
+}
+
+.about-block h5,
+.about-block h3 {
+  color: #fff;
+}
+
+.about-block p {
+  margin: 20px 0px;
+  display: block;
+}
+
+#about-carousel {
+  margin-top: 40px;
+}
+
+.btn-trans-white {
+  border: 1px solid#fff;
+  color: #fff;
+}
+
+.btn-trans-white:hover {
+  background: #fff;
+  color: #000;
+}
+
+.about-box {
+  padding: 20px;
+  padding-left: 100px;
+}
+
+.about-box h2 {
+  font-size: 50px;
+  font-weight: 800;
+  opacity: 0.2;
+  /* margin-left: -50px; */
+  text-transform: uppercase;
+}
+
+.about-box p {
+  color: #111;
 }
 
 /***
