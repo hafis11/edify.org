@@ -10,8 +10,6 @@
 /*Large devices (desktops, 992px and up)*/
 
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
-
-
   /***About One Css***/
   .about-one .section-title__title br {
     display: none;
@@ -29,12 +27,54 @@
   .about-one__right {
     margin-top: 50px;
   }
-  
+
+  /***Welcome One Css***/
+  .welcome-one .section-title__title br {
+    display: none;
+  }
+
+  .welcome-one__right {
+    float: none;
+    margin-left: 100px;
+    margin-top: 60px;
+  }
+
+  .welcome-one__right-img1 img {
+    width: auto;
+  }
+
+  .welcome-one__right .shape1 {
+    right: -100px;
+  }
 }
 
 /*Medium devices (tablets, 768px and up)*/
 
 @media only screen and (max-width: 991.98px) {
+  /***Why Choose One Css***/
+  .why-choose-one {
+    padding: 120px 0px 0px;
+  }
+
+  .why-choose-one .section-title__title br {
+    display: none;
+  }
+
+  .why-choose-one::before {
+    display: none;
+  }
+
+  .why-choose-one__left {
+    max-width: none;
+  }
+
+  .why-choose-one__left-learning-box .text h4 br {
+    display: none;
+  }
+
+  .why-choose-one__right {
+    margin-top: 50px;
+  }
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -91,6 +131,50 @@
 
   .about-one__right {
     margin-top: 50px;
+  }
+
+  /***Why Choose One Css***/
+  .why-choose-one {
+    padding: 120px 0px 0px;
+  }
+
+  .why-choose-one .section-title__title br {
+    display: none;
+  }
+
+  .why-choose-one::before {
+    display: none;
+  }
+
+  .why-choose-one__left {
+    max-width: none;
+  }
+
+  .why-choose-one__left-learning-box .text h4 br {
+    display: none;
+  }
+
+  .why-choose-one__right {
+    margin-top: 50px;
+  }
+
+  /***Welcome One Css***/
+  .welcome-one .section-title__title br {
+    display: none;
+  }
+
+  .welcome-one__right {
+    float: none;
+    margin-left: 100px;
+    margin-top: 60px;
+  }
+
+  .welcome-one__right-img1 img {
+    width: auto;
+  }
+
+  .welcome-one__right .shape1 {
+    right: -100px;
   }
 }
 
@@ -223,6 +307,39 @@
   .about-one__left::before {
     display: none;
   }
+
+  /***Welcome One Css***/
+  .welcome-one .section-title__title br {
+    display: none;
+  }
+
+  .welcome-one__right {
+    float: none;
+    margin-top: 60px;
+  }
+
+  .welcome-one__right .shape1 {
+    display: none;
+  }
+
+  .welcome-one__right-img2 {
+    position: relative;
+    left: 0px;
+    margin-top: 20px;
+  }
+
+  .welcome-one__left-features-box-single-title h4 br {
+    display: none;
+  }
+
+  .welcome-one__left-features-box-single {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .welcome-one__left-features-box-single:last-child {
+    margin-bottom: 0;
+  }
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -316,6 +433,3 @@
     margin: 15px 0px;
   }
 }
-
-
-
