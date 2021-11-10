@@ -324,8 +324,16 @@
     border-radius: 0px;
     padding: 10px;
   }
+  .site-navigation.white.header-white{
+    padding: 0px;
+  }
   .navbar-toggler-icon {
     height: auto;
+  }
+
+  .thm-btn {
+    width: -webkit-fill-available;
+    text-align: center;
   }
 
   .lg-title {
@@ -339,6 +347,12 @@
   }
   .banner-img {
     display: none;
+  }
+
+  /***Feature Css***/
+
+  .feature {
+    padding: 80px 0px 30px;
   }
 
   .features-icon {
@@ -359,8 +373,12 @@
   }
 
   /***About One Css***/
+  .about-one {
+    padding: 0px 0 20px;
+  }
   .about-one__left {
     margin-left: 0px;
+    margin-right: 0px;
   }
   .about-one__left-img-box {
     display: flex;
@@ -375,6 +393,37 @@
   }
 
   /***Welcome One Css***/
+  .welcome-one {
+    padding: 0px 0 20px;
+  }
+  .welcome-one__right .welcome-one__right-img2 {
+    display: none;
+  }
+
+  .welcome-one .section-title {
+    padding-top: 40px;
+  }
+  .welcome-one__left-features-box {
+    margin-top: 10px;
+  }
+  .welcome-one__left-features-box-single {
+    padding-bottom: 20px;
+  }
+  .welcome-one__left-btn {
+    margin-top: 10px;
+  }
+
+  /***Why Choose One Css***/
+  .why-choose-one {
+    padding: 50px 0px 0px;
+  }
+  .why-choose-one::before {
+    width: 50%;
+  }
+  .why-choose-one .container .row .col-xl-6 .why-choose-one__left {
+    margin-bottom: 50px;
+  }
+
   body {
     overflow: hidden;
   }
@@ -401,6 +450,20 @@
   #about-carousel {
     padding-top: 52px;
   }
+
+ /***Registration One Css***/
+  .registration-one__left-transform-box{
+    display: none;
+  }
+  .registration-one__right-form .title-box h4{
+    text-align: center
+  }
+  .registration-one__right-form{
+    padding: 55px 20px 60px;
+  }
+  .registration-one__right-form button{
+    width: -webkit-fill-available;
+  }
   #process {
     padding-top: 0px;
   }
@@ -424,5 +487,14 @@
   }
   .footer-content {
     margin: 15px 0px;
+  }
+  .footer-widget__courses{
+    margin-left: 5px;
+  }
+  .footer-widget__links{
+    margin-left: 5px;
+  }
+  .footer-widget__title{
+    margin-left: 5px;
   }
 }
