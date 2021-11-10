@@ -50,35 +50,6 @@
 
 /*Medium devices (tablets, 768px and up)*/
 
-@media only screen and (max-width: 991.98px) {
-  /***Why Choose One Css***/
-  .why-choose-one {
-    padding: 120px 0px 0px;
-  }
-
-  .why-choose-one .section-title__title br {
-    display: none;
-  }
-
-  .why-choose-one::before {
-    display: none;
-  }
-
-  .why-choose-one__left {
-    max-width: none;
-  }
-
-  .why-choose-one__left-learning-box .text h4 br {
-    display: none;
-  }
-
-  .why-choose-one__right {
-    margin-top: 50px;
-  }
-}
-
-/*Medium devices (tablets, 768px and up)*/
-
 @media (min-width: 768px) and (max-width: 991.98px) {
   .lg-title {
     font-size: 47px;
@@ -216,9 +187,6 @@
     padding-left: 0px;
     padding-top: 30px;
   }
-  .pricing-block {
-    margin-bottom: 40px;
-  }
 
   .about-box h2 {
     font-size: 45px;
@@ -228,6 +196,9 @@
   #about-carousel {
     padding-top: 0px;
     margin-top: 200px;
+  }
+  .pricing-block {
+    margin-bottom: 40px;
   }
   .process-box {
     padding: 15px;
@@ -386,9 +357,62 @@
     margin-bottom: 30px;
   }
 
+  /***About One Css***/
+  .about-one__left{
+    margin-left: 0px;
+  }
+  .about-one__left-img-box{
+    display: flex;
+  }
+
+  .about-one__right {
+    margin-top: 50px;
+  }
+
+  .about-one__left::before {
+    display: none;
+  }
+
+    /***Welcome One Css***/
+    .welcome-one{
+      padding: 0px 0px 10px;
+    }
+    .welcome-one .section-title__title br {
+      display: none;
+    }
+  
+    .welcome-one__right {
+      float: none;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  
+    .welcome-one__right .shape1 {
+      display: none;
+    }
+  
+    .welcome-one__right-img2 {
+      position: relative;
+      left: 0px;
+      margin-top: 20px;
+    }
+  
+    .welcome-one__left-features-box-single-title h4 br {
+      display: none;
+    }
+  
+    .welcome-one__left-features-box-single {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  
+    .welcome-one__left-features-box-single:last-child {
+      margin-bottom: 0;
+    }
+
   .about-bg {
     width: 100%;
-    height: 650px;
+    height: 450px;
     margin-bottom: 30px;
   }
 
