@@ -331,6 +331,7 @@
   .lg-title {
     font-size: 44px;
     line-height: 46px;
+    min-height: 150px;
   }
   .md-title {
     font-size: 34px;
@@ -358,10 +359,10 @@
   }
 
   /***About One Css***/
-  .about-one__left{
+  .about-one__left {
     margin-left: 0px;
   }
-  .about-one__left-img-box{
+  .about-one__left-img-box {
     display: flex;
   }
 
@@ -373,42 +374,10 @@
     display: none;
   }
 
-    /***Welcome One Css***/
-    .welcome-one{
-      padding: 0px 0px 10px;
-    }
-    .welcome-one .section-title__title br {
-      display: none;
-    }
-  
-    .welcome-one__right {
-      float: none;
-      margin-top: 30px;
-      margin-bottom: 30px;
-    }
-  
-    .welcome-one__right .shape1 {
-      display: none;
-    }
-  
-    .welcome-one__right-img2 {
-      position: relative;
-      left: 0px;
-      margin-top: 20px;
-    }
-  
-    .welcome-one__left-features-box-single-title h4 br {
-      display: none;
-    }
-  
-    .welcome-one__left-features-box-single {
-      margin-right: 0;
-      margin-bottom: 15px;
-    }
-  
-    .welcome-one__left-features-box-single:last-child {
-      margin-bottom: 0;
-    }
+  /***Welcome One Css***/
+  body {
+    overflow: hidden;
+  }
 
   .about-bg {
     width: 100%;
