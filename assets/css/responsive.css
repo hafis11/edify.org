@@ -316,6 +316,10 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 
 @media (max-width: 575.98px) {
+  .banner-padding {
+    padding: 190px 0px 120px;
+  }
+
   .top-social {
     display: none;
   }
@@ -324,7 +328,7 @@
     border-radius: 0px;
     padding: 10px;
   }
-  .site-navigation.white.header-white{
+  .site-navigation.white.header-white {
     padding: 0px;
   }
   .navbar-toggler-icon {
@@ -336,11 +340,24 @@
     text-align: center;
   }
 
-  .lg-title {
-    font-size: 44px;
-    line-height: 46px;
-    min-height: 150px;
+  .banner-bg {
+    height: 100vh;
+    overflow: hidden;
   }
+
+  .lg-title {
+    /* text-transform: uppercase; */
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 800 !important;
+  }
+
+  .scroll-text {
+    /* text-transform: uppercase; */
+    font-size: 50px;
+    font-weight: 800 !important;
+  }
+
   .md-title {
     font-size: 34px;
     line-height: 44px;
@@ -451,17 +468,17 @@
     padding-top: 52px;
   }
 
- /***Registration One Css***/
-  .registration-one__left-transform-box{
+  /***Registration One Css***/
+  .registration-one__left-transform-box {
     display: none;
   }
-  .registration-one__right-form .title-box h4{
-    text-align: center
+  .registration-one__right-form .title-box h4 {
+    text-align: center;
   }
-  .registration-one__right-form{
+  .registration-one__right-form {
     padding: 55px 20px 60px;
   }
-  .registration-one__right-form button{
+  .registration-one__right-form button {
     width: -webkit-fill-available;
   }
   #process {
@@ -488,13 +505,13 @@
   .footer-content {
     margin: 15px 0px;
   }
-  .footer-widget__courses{
+  .footer-widget__courses {
     margin-left: 5px;
   }
-  .footer-widget__links{
+  .footer-widget__links {
     margin-left: 5px;
   }
-  .footer-widget__title{
+  .footer-widget__title {
     margin-left: 5px;
   }
 }

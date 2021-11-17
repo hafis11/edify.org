@@ -6,7 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="It is a simple product landing website" />
-    <meta name="keywords" content="Bensen,product,onepage,app,promote,agency,business" />
+    <meta name="keywords" content="EdifyTalent,Edify,talent" />
+
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/favicons/site.webmanifest">
 
 
     <!--====== TITLE TAG ======-->
@@ -37,7 +43,7 @@
 </head>
 
 <body data-spy="scroll" data-target="#main-nav" data-offset="60">
-<!-- 
+    <!-- 
     <div class="preloader">
         <img class="preloader__image" width="60" src="assets/img/logo-b.jpg" alt="" />
     </div> -->
@@ -46,8 +52,8 @@
     <nav class="navbar navbar-expand-lg fixed-top site-navigation white">
         <div class="container">
             <a class="navbar-brand page-scroll" href="#">
-                <img src="assets/img/logo-w.png" alt="Bensen" class="img-fluid white-logo" style="max-width: 60%">
-                <img src="assets/img/logo-b.jpg" alt="Bensen" class="img-fluid black-logo" style="max-width: 60%">
+                <img src="assets/img/logo-b.png" alt="Bensen" class="img-fluid white-logo">
+                <img src="assets/img/logo-b.png" alt="Bensen" class="img-fluid black-logo">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -58,209 +64,81 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav ">
                     <li class="nav-item">
-                        <a class="nav-link dropdown-toggle" href="#" data-scroll-nav="1">
+                        <a class="nav-link dropdown-toggle" href="#" data-scroll-nav="0">
                             Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#feature" data-scroll-nav="2">Features</a>
+                        <a class="nav-link " href="#">CS PLATFORM</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#features" data-scroll-nav="3">Services</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link " href="#about" data-scroll-nav="4">Specifications</a>
+                        <a class="nav-link " href="#pricing" data-scroll-nav="4">ACADEMIA & ORGANIZATION</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#pricing" data-scroll-nav="5">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#footer-area" data-scroll-nav="6">Contact</a>
+                        <a class="nav-link " href="#contact" data-scroll-nav="5">CONTACT US</a>
                     </li>
                 </ul>
             </div>
 
-            <div class="main-menu__right-search-box">
-                <a href="#" class="thm-btn search-toggler">Login</a>
-            </div>
+            <ul class="list-inline top-social d-md-none d-lg-block">
+                <div class="main-menu__right-search-box">
+                    <a href="#" class="login-btn search-toggler">SignUp/SignIn</a>
+                </div>
+            </ul>
         </div>
     </nav>
     <!--END TOP AREA-->
 
     <!--BANNER AREA START-->
-    <section class="main-slider main-slider-one pt-0 pb-6">
-        <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true, "effect": "fade", "pagination": {
-    "el": "#main-slider-pagination",
-    "type": "bullets",
-    "clickable": true
-    },
-    "navigation": {
-    "nextEl": "#main-slider__swiper-button-next",
-    "prevEl": "#main-slider__swiper-button-prev"
-    },
-    "autoplay": {
-    "delay": 7000
-    }}'>
+    <div class="banner-bg" data-scroll-index="0">
+        <!-- <div class="dark-overlay"></div> -->
+        <div id="banner-slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container-fluid ml-0 mr-0">
+                        <div class="row">
+                            <div class="col-lg-10 col-sm-12 m-auto d-flex flex-lg-row">
+                                <div class="main-banner-coontent white banner-padding text-center col-6">
+                                    <!-- <h1 class="lg-title1">EdifyTalent</h1> -->
+                                    <h1 class="lg-title">We envision providing<br><span class="type scroll-text"
+                                            style="color: #FFBA02;"></span><br>
+                                        for the talent marketplace
+                                    </h1>
+                                    <p>EdifyTalent is a R&D focussed ‘career
+                                        synthesizing’
+                                        company that provides
+                                        multi-sided solutions to the global talent marketplace by connecting the Talent
+                                        value chain.
+                                    </p>
 
-            <div class="swiper-wrapper">
-                <!--Start Single Swiper Slide-->
-                <div class="swiper-slide">
-                    <!-- /.image-layer -->
-                    <div class="mx-0 px-0">
-                        <div class="main-slider__content">
-                            <div class="main-slider__content-icon-one">
-                                <span class="icon-lamp"></span>
-                            </div>
-                            <div class="main-slider__content-icon-two">
-                                <span class="icon-human-resources"></span>
-                            </div>
-
-                            <div class="main-slider-one__round-box">
-                                <div class="main-slider-one__round-box-inner">
-                                    <p>Professional <br>teachers</p>
-                                    <div class="icon">
-                                        <i class="fas fa-sort-up"></i>
+                                    <div class="d-flex flex-column flex-md-row">
+                                        <div class="main-slider__content-btn mr-3 mb-3">
+                                            <a href="#demo" data-scroll-nav="3" class="thm-btn">Book a Demo</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <h2 class="main-slider__content-title text-center">GREATER <br />VISIBILITY</h2>
-                            <P class="main-slider__content-text text-center">EdifyTalent is R&D focussed ‘career
-                                synthesizing’ company that <br /> provides multi-sided solutions to the global talent
-                                <br />marketplace by connecting the Talent value chain.
-                            </p>
-                            <div class="d-flex justify-content-center">
-                                <div class="main-slider__content-btn mx-3">
-                                    <a href="#" class="thm-btn">Platform Overview</a>
+                                <div class="main-banner-coontent white banner-padding text-center col-6">
+                                    <img src="./assets/img/banner/Image 1.png" alt="">
                                 </div>
-                                <div class="main-slider__content-btn mx-3">
-                                    <a href="#" class="thm-btn">Book a Demo</a>
-                                </div>
-                            </div>
-                            <div class="main-slider-one__img">
-                                <img src="assets/img/backgrounds/main-slider-v1-img.jpg" class="bg-image" alt="" />
                             </div>
                         </div>
                     </div>
-                </div>
-                <!--End Single Swiper Slide-->
-
-                <!--Start Single Swiper Slide-->
-                <div class="swiper-slide">
-                    <!-- <div class="image-layer"
-                                        style="background-image: url(assets/img/backgrounds/main-slider-v1-1.jpg);"></div> -->
-                    <!-- /.image-layer -->
-                    <div class="mx-0 px-0">
-                        <div class="main-slider__content">
-                            <div class="main-slider__content-icon-one">
-                                <span class="icon-lamp"></span>
-                            </div>
-                            <div class="main-slider__content-icon-two">
-                                <span class="icon-human-resources"></span>
-                            </div>
-
-                            <div class="main-slider-one__round-box">
-                                <div class="main-slider-one__round-box-inner">
-                                    <p>Professional <br>teachers</p>
-                                    <div class="icon">
-                                        <i class="fas fa-sort-up"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <h2 class="main-slider__content-title text-center">REFINED <br />MATCHMAKING</h2>
-                            <P class="main-slider__content-text text-center">EdifyTalent is R&D focussed ‘career
-                                synthesizing’ company that <br /> provides multi-sided solutions to the global talent
-                                <br />marketplace by connecting the Talent value chain.
-                            </p>
-                            <div class="d-flex justify-content-center">
-                                <div class="main-slider__content-btn mx-3">
-                                    <a href="#" class="thm-btn">Platform Overview</a>
-                                </div>
-                                <div class="main-slider__content-btn mx-3">
-                                    <a href="#" class="thm-btn">Book a Demo</a>
-                                </div>
-                            </div>
-                            <div class="main-slider-one__img">
-                                <img src="assets/img/backgrounds/main-slider-v2-img.jpg" class="bg-image" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End Single Swiper Slide-->
-
-                <!--Start Single Swiper Slide-->
-                <div class="swiper-slide">
-                    <!-- <div class="image-layer"
-                        style="background-image: url(assets/img/backgrounds/main-slider-v1-1.jpg);"></div> -->
-                    <!-- /.image-layer -->
-                    <div class="mx-0 px-0">
-                        <div class="main-slider__content">
-
-                            <div class="main-slider__content-icon-one">
-                                <span class="icon-lamp"></span>
-                            </div>
-                            <div class="main-slider__content-icon-two">
-                                <span class="icon-human-resources"></span>
-                            </div>
-
-                            <div class="main-slider-one__round-box">
-                                <div class="main-slider-one__round-box-inner">
-                                    <p>Professional <br>teachers</p>
-                                    <div class="icon">
-                                        <i class="fas fa-sort-up"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <h2 class="main-slider__content-title text-center">SIMPLIFIED <br />HIRING</h2>
-                            <P class="main-slider__content-text text-center">EdifyTalent is a R&D focussed ‘career
-                                synthesizing’ company that <br /> provides multi-sided solutions to the global talent
-                                <br />marketplace by connecting the Talent value chain.
-                            </p>
-                            <div class="d-flex justify-content-center">
-                                <div class="main-slider__content-btn mx-3">
-                                    <a href="#" class="thm-btn">Platform Overview</a>
-                                </div>
-                                <div class="main-slider__content-btn mx-3">
-                                    <a href="#" class="thm-btn">Book a Demo</a>
-                                </div>
-                            </div>
-                            <div class="main-slider-one__img">
-                                <img src="assets/img/backgrounds/main-slider-v3-img.jpg" class="bg-image" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End Single Swiper Slide-->
-            </div>
-
-            <!-- If we need navigation buttons -->
-            <div class="swiper-pagination" id="main-slider-pagination"></div>
-            <div class="main-slider__nav">
-                <div class="swiper-button-prev" id="main-slider__swiper-button-next">
-                    <span class="icon-left"></span>
-                </div>
-                <div class="swiper-button-next" id="main-slider__swiper-button-prev">
-                    <span class="icon-right"></span>
                 </div>
             </div>
-
         </div>
-    </section>
+    </div>
     <!--BANNER AREA END-->
 
 
     <!-- CLIENTS -->
-    <div class="clients module">
+    <div class="clients module my-5 mb-0">
         <div class="container">
             <!-- TITLE -->
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-sm-8 col-sm-offset-2 ds-clients-title container">
                     <h2>– TRUSTED BY MOST POPULAR BRANDS –</h2>
                 </div>
-            </div>
+            </div> -->
             <!-- /TITLE -->
             <!-- COLUMNS -->
             <div class="row">
@@ -268,23 +146,23 @@
                     <div class="ds-clients-carousel">
                         <!-- FIRST ROW -->
                         <div class="row">
-                            <div class="col-xs-6 col-sm-2 ds-clients-item">
-                                <img src="./assets/img/client-1.png" alt="">
+                            <div class="col-xs-3 col-sm-2 ds-clients-item d-flex">
+                                <img src="./assets/img/university/university-1.png" alt="">
                             </div>
-                            <div class="col-xs-6 col-sm-2 ds-clients-item">
-                                <img src="./assets/img/client-2.png" alt="">
+                            <div class="col-xs-6 col-sm-2 ds-clients-item d-flex">
+                                <img src="./assets/img/university/university-2.png" alt="">
                             </div>
-                            <div class="col-xs-6 col-sm-2 ds-clients-item">
-                                <img src="./assets/img/client-3.png" alt="">
+                            <div class="col-xs-6 col-sm-2 ds-clients-item d-flex">
+                                <img src="./assets/img/university/university-3.png" alt="">
                             </div>
-                            <div class="col-xs-6 col-sm-2 ds-clients-item">
-                                <img src="./assets/img/client-4.png" alt="">
+                            <div class="col-xs-6 col-sm-2 ds-clients-item d-flex">
+                                <img src="./assets/img/university/university-4.png" alt="">
                             </div>
-                            <div class="col-xs-6 col-sm-2 ds-clients-item">
-                                <img src="./assets/img/client-5.png" alt="">
+                            <div class="col-xs-6 col-sm-2 ds-clients-item d-flex">
+                                <img src="./assets/img/university/university-5.png" alt="">
                             </div>
-                            <div class="col-xs-6 col-sm-2 ds-clients-item">
-                                <img src="./assets/img/client-6.png" alt="">
+                            <div class="col-xs-6 col-sm-2 ds-clients-item d-flex">
+                                <img src="./assets/img/university/university-6.png" alt="">
                             </div>
                         </div>
 
@@ -298,43 +176,38 @@
     <!-- /CLIENTS -->
 
     <!--FEATURE AREA START-->
-    <section id="feature" data-scroll-index="1">
+    <section id="feature" class="pt-0 feature" data-scroll-index="1">
         <div class="container">
-            <div class="row">
+            <div class="d-flex justify-content-center">
                 <div class="col-lg-8 col-sm-12">
                     <div class="heading-left">
-                        <h5 class="subtitle">From anywhere of your room</h5>
-                        <h2 class="md-title">Hands-free help <br>around the house!</h2>
+                        <h2 class="md-title">FEATURES</h2>
+                        <p class="mt-2">EdifyTalent is a R&D based ‘talentome synthesising’ company envisioned two–sided
+                            solutions to the talent market place. EdifyTalent is a multi-platform ecosystem that
+                            leverages on cognitive technologies and distributed ledger system to provide solutions to
+                            the future of talent marketplace. </p>
                     </div>
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-lg-4 col-sm-6 wow animated fadeInUp" data-wow-delay="0.5s">
-                    <div class="feature-box">
-                        <img src="assets/img/about/feature-1.png" alt="" class="img-fluid">
+                    <div class="feature-box pt-4" style="height: 420px;">
+                        <img src="assets/img/about/os_0023_31 - Copy (2).png" alt="" class="img-fluid"
+                            style="max-width: 60%;">
                         <div class="feature-content">
-                            <h4>VOICE CONTROL</h4>
+                            <h4>Career Synthesis Platform</h4>
                             <p>In up so discovery my middleton eagerness dejection explained. Estimating excellence ye
-                                contrasted insensible .</p>
+                                contrasted insensible.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 wow animated fadeInUp" data-wow-delay="0.5s">
-                    <div class="feature-box">
-                        <img src="assets/img/about/feature-2.png" alt="" class="img-fluid">
+                    <div class="feature-box pt-4" style="height: 420px;">
+                        <img src="assets/img/about/os_0023_31 - Copy.png" alt="" class="img-fluid"
+                            style="max-width: 60%;">
                         <div class="feature-content">
-                            <h4>HANDS FREE CALLING</h4>
-                            <p>In up so discovery my middleton eagerness dejection explained. Estimating excellence ye
-                                contrasted insensible .</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 wow animated fadeInUp" data-wow-delay="0.5s">
-                    <div class="feature-box">
-                        <img src="assets/img/about/feature-3.jpg" alt="" class="img-fluid">
-                        <div class="feature-content">
-                            <h4>ORDER FOOD OR SHOPING</h4>
+                            <h4>Marketplace & Integrations</h4>
                             <p>In up so discovery my middleton eagerness dejection explained. Estimating excellence ye
                                 contrasted insensible .</p>
                         </div>
@@ -345,56 +218,173 @@
     </section>
     <!--FEATURE AREA END-->
 
-    <!--ABOUT AREA START-->
-    <section class="about-one clearfix">
+
+    <!--CAREER AREA START-->
+    <section style="background-color: #F9FEFF;">
         <div class="container">
-            <div class="row">
+
+            <div class="d-flex justify-content-center">
+                <div class="col-lg-8 col-sm-12">
+                    <div class="heading-left">
+                        <h2 class="md-title">CAREER SYNTHESIS PLATFORM</h2>
+                        <p class="mt-2">The career synthesis platform enables personalized talent journey through
+                            intelligent assistance (machine learning driven algorithms) for matchmaking of career
+                            progressing opportunities. Process of career synthesis is augmented through productive
+                            acquisition of domain specific knowledge, understanding of changing industry & skill
+                            dynamics, value added interactions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
                 <!-- Start About One Left-->
-                <div class="col-xl-6">
-                    <div class="about-one__left">
-                        <ul class="about-one__left-img-box list-unstyled clearfix">
-                            <li class="about-one__left-single">
-                                <div class="about-one__left-img1">
-                                    <img src="assets/img/about/about-v1-img1.jpg" alt="" />
-                                </div>
-                            </li>
-                            <li class="about-one__left-single">
-                                <div class="about-one__left-img2">
-                                    <img src="assets/img/about/about-v1-img2.jpg" alt="" />
-                                </div>
-                            </li>
-                        </ul>
-                        <!-- <div class="about-one__left-overlay">
-                            <div class="icon">
-                                <span class="icon-relationship"></span>
-                            </div>
-                            <div class="title">
-                                <h6>Trusted by<br><span class="odometer" data-count="8800">00</span> customers</h6>
-                            </div>
-                        </div> -->
+                <div class="welcome-one__right clearfix">
+                    <!-- <div class="shape1 rotate-me"><img src="assets/img/shapes/thm-shape1.png" alt="" /></div> -->
+                    <div class="welcome-one__right-img1 mr-lg-5 mr-0">
+                        <div class="welcome-one__right-img1-inner">
+                            <img src="assets/img/about/Group 84.png" alt="" />
+                        </div>
                     </div>
                 </div>
                 <!-- End About One Left-->
+            </div>
 
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 wow animated fadeInUp" data-wow-delay="0.5s">
+                    <div class="feature-box" style="background-color: #DBD6EB; height: 290px;">
+                        <div class="feature-content pb-0 pt-3">
+                            <h4 style="text-align: center;">TALENT SYNAPSE</h4>
+                            <p style="text-align: center;">Connecting talents with opportunities</p>
+                        </div>
+                        <img src="assets/img/icons/Group 86.png" alt="" class="img-fluid" style="max-width: 20%;">
+                        <div class="feature-content pb-0 pt-3">
+                            <p style="text-align: center;">University admissions, internships, scholarship, events,
+                                funding, research & Career
+                                opportunities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow animated fadeInUp" data-wow-delay="0.5s">
+                    <div class="feature-box" style="background-color: #C1E9E2; height: 290px;">
+                        <div class="feature-content pb-0 pt-3">
+                            <h4 style="text-align: center;">KNOWLEDGE REPOSITORY</h4>
+                            <p style="text-align: center;">Publish and access learning and
+                                research contents</p>
+                        </div>
+                        <img src="assets/img/icons/Group 88.png" alt="" class="img-fluid" style="max-width: 20%;">
+                        <div class="feature-content pb-0 pt-3">
+                            <p style="text-align: center;">Article, thesis, dissertation,
+                                course contents etc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow animated fadeInUp" data-wow-delay="0.5s">
+                    <div class="feature-box" style="background-color: #E6F4F6; height: 290px;">
+                        <div class="feature-content pb-0 pt-3">
+                            <h4 style="text-align: center;">t- DNA</h4>
+                            <p style="text-align: center;">CV Creating digital, narrative & analytics driven competency
+                                visualization</p>
+                        </div>
+                        <img src="assets/img/icons/Group 92.png" alt="" class="img-fluid" style="max-width: 20%;">
+                        <div class="feature-content pb-0 pt-3">
+                            <p style="text-align: center;">Your digital identity for new talent economy & resume for
+                                4.0.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--CAREER AREA END-->
 
-                <!-- Start About One Right-->
+    <!-- AUGMENTED AREA START -->
+    <section class="augmented">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <div class="col-lg-8 col-sm-12">
+                    <div class="heading-left">
+                        <h2 class="md-title">Augmented talent acquisition
+                            and credential validation solution</h2>
+                        <p class="mt-2">EdifyTalent envisions an ecosystem that focuses on harnessing skills,
+                            competencies, preferences, aspirations, and narrative of a talent for synthesizing career
+                            through refined matchmaking of opportunities, providing personalized insights, facilitating
+                            peer research & learning, and promoting digital well-being in an environment designed to
+                            inspire and empower people.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+
+                <!-- Start About One Left-->
                 <div class="col-xl-6">
                     <div class="about-one__right">
-                        <div class="section-title">
-                            <span class="section-title__tagline">About Zilom Company</span>
-                            <h2 class="section-title__title">Welcome to the Online <br>Learning Center</h2>
-                        </div>
                         <div class="about-one__right-inner">
-                            <p class="about-one__right-text">There are many variations of passages of lorem ipsum
-                                available but the majority have suffered alteration in some form by injected humour
-                                or randomised words which don't look.</p>
+                            <ul class="about-one__right-list list-unstyled mt-0">
+                                <li class="about-one__right-list-item align-items-center" style="height: 80px;">
+                                    <div class="icon">
+                                        <span class="icon-confirmation"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Personalized talent journey through intelligent assistance.</p>
+                                    </div>
+                                </li>
+                                <hr/>
+                                <li class="about-one__right-list-item align-items-center" style="height: 80px;">
+                                    <div class="icon">
+                                        <span class="icon-confirmation"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Matchmaking of career progressing opportunities through productive
+                                            acquisition of domain specific knowledge, understanding of changing industry
+                                            & skill dynamics.</p>
+                                    </div>
+                                </li>
+                                <hr/>
+                                <li class="about-one__right-list-item align-items-center" style="height: 80px;">
+                                    <div class="icon">
+                                        <span class="icon-confirmation"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Value added academic interaction facilitating peer-to-peer & informal
+                                            learning.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Start About One Left-->
+            </div>
+        </div>
+    </section>
+    <!-- AUGMENTED AREA END -->
+
+    <!--ABOUT AREA START-->
+    <section class="about-one clearfix">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <div class="col-lg-8 col-sm-12">
+                    <div class="heading-left">
+                        <h2 class="md-title">Academia AND Organizations</h2>
+                        <p class="mt-2">Revolutionizing higher education marketing with value driven approach for
+                            maximized ROI.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <!-- Start About One Left-->
+                <div class="col-xl-6">
+                    <div class="about-one__right">
+                        <div class="about-one__right-inner">
                             <ul class="about-one__right-list list-unstyled">
                                 <li class="about-one__right-list-item">
                                     <div class="icon">
                                         <span class="icon-confirmation"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Get unlimited access to 66000+ of our top courses</p>
+                                        <p>Single solution for marketing, lead management, customer data & resource
+                                            management.</p>
                                     </div>
                                 </li>
 
@@ -403,7 +393,8 @@
                                         <span class="icon-confirmation"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Explore a variety of fresh educational topics</p>
+                                        <p>Easy to use interfaces for manage and market programs, event, careers, and
+                                            News & highlights.</p>
                                     </div>
                                 </li>
 
@@ -412,13 +403,33 @@
                                         <span class="icon-confirmation"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Find the best qualitfied teacher for you</p>
+                                        <p>Admin workspace for Advanced User Management System and E-foorprints for user
+                                            activity logs. </p>
+                                    </div>
+                                </li>
+
+                                <li class="about-one__right-list-item">
+                                    <div class="icon">
+                                        <span class="icon-confirmation"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Smart data & machine learning driven student/talent acquisition.</p>
                                     </div>
                                 </li>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Start About One Left-->
 
-                            <div class="about-one__btn">
-                                <a href="about.html" class="thm-btn">view all courses</a>
+                <!-- End About One Right-->
+                <div class="col-xl-6">
+                    <div class="welcome-one__right clearfix">
+                        <!-- <div class="shape1 rotate-me"><img src="assets/img/shapes/thm-shape1.png" alt="" /></div> -->
+                        <div class="welcome-one__right-img1 wow slideInRight mr-lg-5 mr-0" data-wow-delay="100ms"
+                            data-wow-duration="2500ms">
+                            <div class="welcome-one__right-img1-inner">
+                                <img src="assets/img/about/Group 185.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -430,76 +441,9 @@
     <!--ABOUT AREA 	END-->
 
 
-
-    <!--Start Welcome One-->
-    <section class="welcome-one">
-        <div class="container">
-            <div class="row">
-                <!--Start Welcome One Left-->
-                <div class="col-xl-6">
-                    <div class="welcome-one__left">
-                        <div class="section-title">
-                            <span class="section-title__tagline">Company Introductions</span>
-                            <h2 class="section-title__title">Start Learning with <br>Zilom Now</h2>
-                        </div>
-                        <p class="welcome-one__left-text">There are many variations of passages of lorem ipsum
-                            available but the majority have suffered alteration in some form by injected humour or
-                            randomised words which don't look.</p>
-                        <ul class="welcome-one__left-features-box list-unstyled">
-                            <!--Start Welcome One Left Features Box Single-->
-                            <li class="welcome-one__left-features-box-single">
-                                <div class="welcome-one__left-features-box-single-icon">
-                                    <span class="icon-professor"></span>
-                                </div>
-                                <div class="welcome-one__left-features-box-single-title">
-                                    <h4>Start learning from <br>our experts</h4>
-                                </div>
-                            </li>
-                            <!--End Welcome One Left Features Box Single-->
-
-                            <!--Start Welcome One Left Features Box Single-->
-                            <li class="welcome-one__left-features-box-single">
-                                <div class="welcome-one__left-features-box-single-icon">
-                                    <span class="icon-knowledge"></span>
-                                </div>
-                                <div class="welcome-one__left-features-box-single-title">
-                                    <h4>Enhance your skills <br>with us now</h4>
-                                </div>
-                            </li>
-                            <!--End Welcome One Left Features Box Single-->
-                        </ul>
-                        <div class="welcome-one__left-btn">
-                            <a href="about.html" class="thm-btn">view all courses</a>
-                        </div>
-                    </div>
-                </div>
-                <!--End Welcome One Left-->
-
-                <!--Start Welcome One Right-->
-                <div class="col-xl-6">
-                    <div class="welcome-one__right clearfix">
-                        <div class="shape1 rotate-me"><img src="assets/img/shapes/thm-shape1.png" alt="" /></div>
-                        <div class="welcome-one__right-img1 wow slideInRight" data-wow-delay="100ms"
-                            data-wow-duration="2500ms">
-                            <div class="welcome-one__right-img1-inner">
-                                <img src="assets/img/about/welcome-v1-img1.jpg" alt="" />
-                            </div>
-                        </div>
-                        <div class="welcome-one__right-img2 wow zoomIn" data-wow-delay="100ms"
-                            data-wow-duration="3500ms">
-                            <img src="assets/img/about/welcome-v1-img2.jpg" alt="" />
-                        </div>
-                    </div>
-                </div>
-                <!--End Welcome One Right-->
-            </div>
-        </div>
-    </section>
-    <!--End Welcome One-->
-
-
     <!--Registration One Start-->
-    <section class="registration-one jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%">
+    <section class="registration-one jarallax" id="demo" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
+        data-scroll-index="3">
         <div class="registration-one__bg" style="background-image: url(assets/img/resources/registration-one-bg.jpg);">
         </div>
         <div class="container">
@@ -508,12 +452,12 @@
                 <div class="col-xl-7 col-lg-7">
                     <div class="registration-one__left">
                         <div class="section-title">
-                            <span class="section-title__tagline">Get Free Registration</span>
-                            <h2 class="section-title__title">Register your Account<br> Get free Access to <span
-                                    class="odometer" data-count="66000">00</span> <br>Online Courses</h2>
+                            <span class="section-title__tagline">Get Free Demo</span>
+                            <h2 class="section-title__title">Register your Account<br> Get free Access to <br>our
+                                product</h2>
                         </div>
-                        <p class="registration-one__left-text">There are many variations of passages of lorem ipsum
-                            available but the majority have suffered alteration in some form.</p>
+                        <p class="registration-one__left-text">Contact us for EdifyTalent Platform Demo with Touch Us or
+                            Form</p>
                         <div class="registration-one__left-transform-box">
                             <div class="registration-one__left-transform-box-icon">
                                 <span class="icon-online-course"></span>
@@ -534,7 +478,7 @@
                         data-wow-duration="2500ms">
                         <div class="registration-one__right-form">
                             <div class="title-box">
-                                <h4>Fill your Registration</h4>
+                                <h4>Request Demo</h4>
                             </div>
                             <div class="form-box">
                                 <form method="post" action="#">
@@ -567,6 +511,8 @@
 
     <!--Categories One Start-->
     <section class="categories-one">
+        <div class="categories-one__pattern"><img src="assets/img/pattern/testimonials-two-left-pattern.png" alt="" />
+        </div>
         <div class="container">
             <div class="section-title text-center">
                 <span class="section-title__tagline">Our Awesome Team</span>
@@ -576,31 +522,13 @@
                 <div class="col-xl-12">
                     <div class="categories-one__wrapper">
                         <div class="row">
-                            <!--Start Single Categories One-->
-                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0ms"
-                                data-wow-duration="1500ms">
-                                <div class="categories-one__single">
-                                    <div class="categories-one__single-img">
-                                        <img src="assets/img/resources/categories-v1-img1.jpg" alt="" />
-                                        <div class="categories-one__single-overlay">
-                                            <div class="categories-one__single-overlay-text1">
-                                                <p>NIYAS SALEEM</p>
-                                            </div>
-                                            <div class="categories-one__single-overlay-text2">
-                                                <h4>Co founder</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single Categories One-->
 
                             <!--Start Single Categories One-->
                             <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms"
                                 data-wow-duration="1500ms">
                                 <div class="categories-one__single">
                                     <div class="categories-one__single-img">
-                                        <img src="assets/img/resources/categories-v1-img2.jpg" alt="" />
+                                        <img src="assets/img/resources/Team_v1.png" alt="" />
                                         <div class="categories-one__single-overlay">
                                             <div class="categories-one__single-overlay-text1">
                                                 <p>SANJAR MOHAMED AB</p>
@@ -615,17 +543,36 @@
                             <!--End Single Categories One-->
 
                             <!--Start Single Categories One-->
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
+                                <div class="categories-one__single">
+                                    <div class="categories-one__single-img">
+                                        <img src="assets/img/resources/Team_v2.png" alt="" />
+                                        <div class="categories-one__single-overlay">
+                                            <div class="categories-one__single-overlay-text1">
+                                                <p>NIYAS SALEEM</p>
+                                            </div>
+                                            <div class="categories-one__single-overlay-text2">
+                                                <h4>Co founder</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single Categories One-->
+
+                            <!--Start Single Categories One-->
                             <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
                                 data-wow-duration="1500ms">
                                 <div class="categories-one__single">
                                     <div class="categories-one__single-img">
-                                        <img src="assets/img/resources/categories-v1-img3.jpg" alt="" />
+                                        <img src="assets/img/resources/Team_v3.png" alt="" />
                                         <div class="categories-one__single-overlay">
                                             <div class="categories-one__single-overlay-text1">
                                                 <p>NIDHIN JOSEPH</p>
                                             </div>
                                             <div class="categories-one__single-overlay-text2">
-                                                <h4>UX/UI Designer</h4>
+                                                <h4>Senior UX/UI Designer</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -638,13 +585,89 @@
                                 data-wow-duration="1500ms">
                                 <div class="categories-one__single">
                                     <div class="categories-one__single-img">
-                                        <img src="assets/img/resources/categories-v1-img4.jpg" alt="" />
+                                        <img src="assets/img/resources/Team_v4.png" alt="" />
                                         <div class="categories-one__single-overlay">
                                             <div class="categories-one__single-overlay-text1">
                                                 <p>NIKHIL ROY</p>
                                             </div>
                                             <div class="categories-one__single-overlay-text2">
                                                 <h4>Senior Developer</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single Categories One-->
+
+                            <!--Start Single Categories One-->
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
+                                <div class="categories-one__single">
+                                    <div class="categories-one__single-img">
+                                        <img src="assets/img/resources/Team_v5.png" alt="" />
+                                        <div class="categories-one__single-overlay">
+                                            <div class="categories-one__single-overlay-text1">
+                                                <p>RAM SUNDAR</p>
+                                            </div>
+                                            <div class="categories-one__single-overlay-text2">
+                                                <h4>Academic Head</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single Categories One-->
+
+                            <!--Start Single Categories One-->
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
+                                <div class="categories-one__single">
+                                    <div class="categories-one__single-img">
+                                        <img src="assets/img/resources/Team_v6.png" alt="" />
+                                        <div class="categories-one__single-overlay">
+                                            <div class="categories-one__single-overlay-text1">
+                                                <p>SOORAJ VISWANATH</p>
+                                            </div>
+                                            <div class="categories-one__single-overlay-text2">
+                                                <h4>Front-End Developer</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single Categories One-->
+
+                            <!--Start Single Categories One-->
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
+                                <div class="categories-one__single">
+                                    <div class="categories-one__single-img">
+                                        <img src="assets/img/resources/Team_v7.png" alt="" />
+                                        <div class="categories-one__single-overlay">
+                                            <div class="categories-one__single-overlay-text1">
+                                                <p>HAFIS MUHAMMED</p>
+                                            </div>
+                                            <div class="categories-one__single-overlay-text2">
+                                                <h4>Front-End Developer</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single Categories One-->
+
+                            <!--Start Single Categories One-->
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
+                                <div class="categories-one__single">
+                                    <div class="categories-one__single-img">
+                                        <img src="assets/img/resources/Team_v8.png" alt="" />
+                                        <div class="categories-one__single-overlay">
+                                            <div class="categories-one__single-overlay-text1">
+                                                <p>MANISH M L</p>
+                                            </div>
+                                            <div class="categories-one__single-overlay-text2">
+                                                <h4>Content Creator</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -663,7 +686,7 @@
     <!--Categories One End-->
 
     <!-- PARALLAX VIDEO AREA START-->
-    <section id="parallax" class="bg-feature">
+    <section id="parallax" class="bg-feature" data-scroll-index="2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-5 col-md-6">
@@ -688,7 +711,7 @@
     <!-- PARALLAX VIDEO AREA END-->
 
     <!--Start Contact Details One-->
-    <section class="contact-details-one">
+    <section class="contact-details-one" id="contact" data-scroll-index="5">
         <div class="container">
             <div class="row">
                 <!--Start Single Contact Details One-->
@@ -698,7 +721,7 @@
                             <span class="icon-chat"></span>
                         </div>
                         <div class="contact-details-one__single-text">
-                            <h4><a href="tel:123456789">92 666 888 0000</a></h4>
+                            <h4><a href="tel:+358 44 2371 585">+358 44 2371 585</a></h4>
                             <p>Call Anytime</p>
                         </div>
                     </div>
@@ -712,7 +735,7 @@
                             <span class="icon-message-1"></span>
                         </div>
                         <div class="contact-details-one__single-text">
-                            <h4><a href="mailto:info@templatepath.com">info@company.com</a></h4>
+                            <h4><a href="mailto:info@templatepath.com">hello@edifytalent.com</a></h4>
                             <p>Send Email</p>
                         </div>
                     </div>
@@ -726,7 +749,7 @@
                             <span class="icon-address"></span>
                         </div>
                         <div class="contact-details-one__single-text">
-                            <h4>88 broklyn street, USA</h4>
+                            <h4>Vaasa, 65100, Finland</h4>
                             <p>Call Anytime</p>
                         </div>
                     </div>
@@ -782,7 +805,7 @@
                                     <div class="comment-form__input-box">
                                         <textarea name="message" placeholder="Write message"></textarea>
                                     </div>
-                                    <button type="submit" class="thm-btn comment-form__btn">Submit Comment</button>
+                                    <button class="thm-btn comment-form__btn">Submit Comment</button>
                                 </div>
                             </div>
                         </form>
@@ -814,13 +837,11 @@
                     <!--Start Footer Widget Column-->
                     <div class="col-xl-2 col-lg-4 col-md-4 wow animated fadeInUp" data-wow-delay="0.3s">
                         <div class="footer-widget__column footer-widget__courses">
-                            <h3 class="footer-widget__title">Courses</h3>
+                            <h3 class="footer-widget__title">Information</h3>
                             <ul class="footer-widget__courses-list list-unstyled">
-                                <li><a href="#">UI/UX Design</a></li>
-                                <li><a href="#">WordPress Development</a></li>
-                                <li><a href="#">Business Strategy</a></li>
-                                <li><a href="#">Software Development</a></li>
-                                <li><a href="#">Business English</a></li>
+                                <li><a href="#">Talents</a></li>
+                                <li><a href="#">Academia</a></li>
+                                <li><a href="#">Organization</a></li>
                             </ul>
                         </div>
                     </div>
@@ -831,11 +852,9 @@
                         <div class="footer-widget__column footer-widget__links">
                             <h3 class="footer-widget__title">Links</h3>
                             <ul class="footer-widget__links-list list-unstyled">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="#">Overview</a></li>
-                                <li><a href="teachers-1.html">Teachers</a></li>
-                                <li><a href="#">Join Us</a></li>
-                                <li><a href="news.html">Our News</a></li>
+                                <li><a href="#">Ecosystem</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Events</a></li>
                             </ul>
                         </div>
                     </div>
@@ -845,9 +864,11 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.7s">
                         <div class="footer-widget__column footer-widget__contact">
                             <h3 class="footer-widget__title">Contact</h3>
-                            <p class="text">88 broklyn street, New York USA</p>
-                            <p><a href="mailto:info@templatepath.com">needhelp@company.com</a></p>
-                            <p class="phone"><a href="tel:123456789">92 888 666 0000</a></p>
+                            <p class="text">EdifyTalent Oy
+                                Asemakatu 50 D
+                                Vaasa, 65100, Finland</p>
+                            <p><a href="mailto:info@templatepath.com">hello@edifytalent.com</a></p>
+                            <p class="phone"><a href="tel:1+358 44 2371 585">+358 44 2371 585</a></p>
                         </div>
                     </div>
                     <!--End Footer Widget Column-->
@@ -856,9 +877,12 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.9s">
                         <div class="footer-widget__column footer-widget__social-links">
                             <ul class="footer-widget__social-links-list list-unstyled clearfix">
-                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/edifytalent"><i class="fab fa-facebook"></i></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/company/edifytalent/"><i
+                                            class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="https://www.instagram.com/edify.talent/"><i
+                                            class="fab fa-instagram"></i></a></li>
                                 <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
                             </ul>
                         </div>
@@ -905,7 +929,17 @@
 
     <script src="assets/ventors/swiper/swiper.min.js"></script>
     <script src="assets/ventors/wow/wow.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script>
+        var typed = new Typed('.type', {
+            // Waits 1000ms after typing "First"
+            strings: ['Greater visibility', 'Refined matchmaking', 'Simplified hiring'],
+            typeSpeed: 100,
+            backSpedd: 70,
+            loop: true
+        });
+    </script>
 
 
 </body>
