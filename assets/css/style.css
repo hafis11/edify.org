@@ -33,11 +33,11 @@ Version: 1.0.0
 a {
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  color: #212324;
+  color: #ffffff;
 }
 
 a:hover {
-  color: #c1934c;
+  color: #ffffff;
 }
 
 ul {
@@ -889,7 +889,7 @@ HOME SLIDER
   transition-delay: 1500ms;
 }
 
-.main-slider-two__button-box {
+.comment-form__btn {
   position: relative;
   display: block;
   margin-top: 22px;
@@ -898,9 +898,11 @@ HOME SLIDER
   transform: translateY(80px);
   display: flex;
   align-self: flex-start;
+  text-decoration: none;
+  color: white;
 }
 
-.main-slider-two .swiper-slide-active .main-slider-two__button-box {
+.main-slider-two .swiper-slide-active .comment-form__btn {
   opacity: 1;
   transform: translateX(0);
   transition-delay: 2000ms;
