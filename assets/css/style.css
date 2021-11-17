@@ -2055,7 +2055,7 @@ button:hover {
 }
 
 .contact-details-one__single-icon span::before {
-  color: #4d5fe3;
+  color: #ffffff;
   font-size: 30px;
   line-height: 65px;
   transition: all 200ms linear;
