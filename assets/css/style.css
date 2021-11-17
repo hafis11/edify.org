@@ -824,6 +824,91 @@ HOME SLIDER
 
 /*------------ Static Banner ------------*/
 
+
+/***
+=============================================
+    Main Slider Two
+=============================================
+***/
+.main-slider-two {
+  position: relative;
+  display: flex;
+  z-index: 2;
+  align-items: center
+}
+
+
+.main-slider-two .image-layer-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.main-slider-two__content {
+  position: relative;
+  display: block;
+}
+
+.main-slider-two__tagline {
+  /* color: var(--thm-base); */
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: start;
+  margin-top: 10px;
+  opacity: 0;
+  transition: all 1000ms ease;
+  transform: translateY(80px);
+}
+
+.main-slider-two .swiper-slide-active .main-slider-two__tagline {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 2000ms;
+}
+
+
+.main-slider__title {
+  color: #000000;
+  font-size: 47px;
+  text-align: start;
+  line-height: 1.2em;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  opacity: 0;
+  transition: all 1000ms ease;
+  transform: translateY(80px);
+}
+
+.main-slider-two .swiper-slide-active .main-slider__title {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 1500ms;
+}
+
+.main-slider-two__button-box {
+  position: relative;
+  display: block;
+  margin-top: 22px;
+  opacity: 0;
+  transition: all 1000ms ease;
+  transform: translateY(80px);
+  display: flex;
+  align-self: flex-start;
+}
+
+.main-slider-two .swiper-slide-active .main-slider-two__button-box {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 2000ms;
+}
+
+
+/*  */
+
 .banner-padding {
   padding: 141px 0px 120px;
 }
