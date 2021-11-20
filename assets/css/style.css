@@ -858,7 +858,7 @@ HOME SLIDER
   line-height: 30px;
   font-weight: 400;
   text-align: start;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   opacity: 0;
   transition: all 1000ms ease;
   transform: translateY(80px);
@@ -983,6 +983,13 @@ HOME SLIDER
 .md-title {
   text-transform: uppercase;
   font-size: 55px;
+  line-height: 55px;
+  font-weight: 800;
+}
+
+.md-title-sub {
+  text-transform: uppercase;
+  font-size: 46px;
   line-height: 55px;
   font-weight: 800;
 }
@@ -1276,7 +1283,7 @@ FEATURE SECTION
   position: relative;
   display: block;
   overflow: hidden;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .about-one__right-list-item {
