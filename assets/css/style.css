@@ -325,8 +325,8 @@ input:-webkit-autofill:focus {
 
 .heading-left {
   padding-top: 40px;
-  margin-bottom: 30px;
-  padding-bottom: 30px;
+  /* margin-bottom: 30px; */
+  /* padding-bottom: 20px; */
   text-align: center;
 }
 
@@ -1110,7 +1110,7 @@ FEATURE SECTION
   position: relative;
   display: block;
   background: #D7E8E9;
-  padding: 0px 0 120px;
+  padding: 80px 0 120px;
 }
 
 .about-one__left {
