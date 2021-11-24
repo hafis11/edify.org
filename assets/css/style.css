@@ -824,7 +824,6 @@ HOME SLIDER
 
 /*------------ Static Banner ------------*/
 
-
 /***
 =============================================
     Main Slider Two
@@ -834,9 +833,8 @@ HOME SLIDER
   position: relative;
   display: flex;
   z-index: 2;
-  align-items: center
+  align-items: center;
 }
-
 
 .main-slider-two .image-layer-overlay {
   position: absolute;
@@ -869,7 +867,6 @@ HOME SLIDER
   transform: translateX(0);
   transition-delay: 2000ms;
 }
-
 
 .main-slider__title {
   color: #000000;
@@ -908,7 +905,6 @@ HOME SLIDER
   transition-delay: 2000ms;
 }
 
-
 /*  */
 
 .banner-padding {
@@ -932,7 +928,6 @@ HOME SLIDER
   text-align: start;
 }
 
-
 .lg-title {
   /* text-transform: uppercase; */
   font-size: 50px;
@@ -940,10 +935,10 @@ HOME SLIDER
   font-weight: 800 !important;
 }
 
-.scroll-text{
-    /* text-transform: uppercase; */
-    font-size: 50px;
-    font-weight: 800 !important;
+.scroll-text {
+  /* text-transform: uppercase; */
+  font-size: 50px;
+  font-weight: 800 !important;
 }
 
 .subtitle {
@@ -1018,11 +1013,11 @@ CLIENTS
 
 .ds-clients-item img {
   max-width: 100%;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
   transition: all 0.125s ease-in-out 0s;
   -moz-transition: all 0.125s ease-in-out 0s;
   -webkit-transition: all 0.125s ease-in-out 0s;
@@ -1109,7 +1104,7 @@ FEATURE SECTION
 .about-one {
   position: relative;
   display: block;
-  background: #D7E8E9;
+  background: #d7e8e9;
   padding: 80px 0 120px;
 }
 
@@ -1739,7 +1734,7 @@ FEATURE SECTION
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: #00416B;
+  background-color: #00416b;
   content: "";
   z-index: 1;
 }
@@ -2095,7 +2090,7 @@ button:hover {
 .contact-details-one {
   position: relative;
   display: block;
-  background: #FAFAFA;
+  background: #fafafa;
   padding: 120px 0px 90px;
 }
 
@@ -2198,7 +2193,7 @@ button:hover {
 .contact-page {
   position: relative;
   display: block;
-  background: #FAFAFA;
+  background: #fafafa;
   padding: 0px 0px 120px;
 }
 
@@ -2284,7 +2279,7 @@ button:hover {
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;
-  background-color: #00416B;
+  background-color: #00416b;
   mix-blend-mode: luminosity;
   opacity: 0.15;
   position: absolute;
@@ -2296,7 +2291,7 @@ button:hover {
 
 .footer-one {
   position: relative;
-  background-color: #00416B;
+  background-color: #00416b;
 }
 
 .footer-one .container {
