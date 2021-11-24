@@ -1097,6 +1097,18 @@ FEATURE SECTION
   z-index: 999;
 }
 
+.feature-bg {
+  position: absolute;
+  /* top: 0;
+  left: 0;
+  bottom: 345px;
+  right: 0; */
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /***
 =============================================
     About One
@@ -1105,7 +1117,7 @@ FEATURE SECTION
 .about-one {
   position: relative;
   display: block;
-  background: #d7e8e9;
+  background: #00416b;
   padding: 80px 0 120px;
 }
 
