@@ -1049,6 +1049,7 @@ FEATURE SECTION
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: white;
 }
 
 .feature-content {
