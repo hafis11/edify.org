@@ -1053,7 +1053,7 @@ FEATURE SECTION
 
 .feature-one__bg {
   position: absolute;
-  top: 40px;
+  top: 0;
   bottom: 0;
   left: auto;
   right: 0;

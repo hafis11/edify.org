@@ -6,7 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="It is a simple product landing website" />
-    <meta name="keywords" content="Bensen,product,onepage,app,promote,agency,business" />
+    <meta name="keywords" content="EdifyTalent,Edify,talent" />
+
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/favicons/site.webmanifest">
 
 
     <!--====== TITLE TAG ======-->
@@ -46,8 +52,8 @@
     <nav class="navbar navbar-expand-lg fixed-top site-navigation white">
         <div class="container">
             <a class="navbar-brand page-scroll" href="#">
-                <img src="assets/img/logo-w.png" alt="Bensen" class="img-fluid white-logo" style="max-width: 60%">
-                <img src="assets/img/logo-b.jpg" alt="Bensen" class="img-fluid black-logo" style="max-width: 60%">
+                <img src="assets/img/logo-b.png" alt="Bensen" class="img-fluid white-logo">
+                <img src="assets/img/logo-b.png" alt="Bensen" class="img-fluid black-logo">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -58,32 +64,28 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav ">
                     <li class="nav-item">
-                        <a class="nav-link dropdown-toggle" href="#" data-scroll-nav="1">
+                        <a class="nav-link dropdown-toggle" href="#home" data-scroll-nav="0">
                             Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#feature" data-scroll-nav="2">Features</a>
+                        <a class="nav-link " href="#cs" data-scroll-nav="1">PLATFORM</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#features" data-scroll-nav="3">Services</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link " href="#about" data-scroll-nav="4">Specifications</a>
+                        <a class="nav-link " href="#cs" data-scroll-nav="1">TALENTS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#pricing" data-scroll-nav="5">Pricing</a>
+                        <a class="nav-link " href="#augmented" data-scroll-nav="2">ACADEMIA & ORG</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#footer-area" data-scroll-nav="6">Contact</a>
+                        <a class="nav-link " href="#contact" data-scroll-nav="5">CONTACT US</a>
                     </li>
                 </ul>
             </div>
 
             <ul class="list-inline top-social d-md-none d-lg-block">
                 <div class="main-menu__right-search-box">
-                    <a href="#" class="thm-btn search-toggler">Login</a>
+                    <a href="http://staging.edifytalent.com/" class="login-btn search-toggler">Sign In</a>
                 </div>
             </ul>
         </div>
@@ -91,92 +93,209 @@
     <!--END TOP AREA-->
 
     <!--BANNER AREA START-->
-    <div class="banner-bg p-3 p-md-5" data-scroll-index="0">
-        <div class="dark-overlay"></div>
-        <div class="main-slider__content-icon-one wow animated fadeInUp" data-wow-delay="0.2s">
-            <span class="icon-lamp"></span>
-        </div>
-        <div class="main-slider__content-icon-two wow animated fadeInUp" data-wow-delay="0.2s">
-            <span class="icon-human-resources"></span>
-        </div>
-        <div class="main-slider-one__round-box wow animated fadeInUp" data-wow-delay="0.2s">
-            <div class="main-slider-one__round-box-inner">
-                <p>Career synthesis
-                    <br>platform
-                </p>
-                <div class="icon">
-                    <i class="fas fa-sort-up"></i>
+    <div class="clients module my-5 mb-0" id="home" data-scroll-index="0">
+        <div class="container">
+            <!-- TITLE -->
+            <!-- <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 ds-clients-title container">
+                    <h2>– TRUSTED BY MOST POPULAR BRANDS –</h2>
                 </div>
-            </div>
-        </div>
+            </div> -->
+            <!-- /TITLE -->
+            <!-- COLUMNS -->
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 m-auto d-flex flex-lg-row flex-column">
+                    <div class="main-banner-coontent white banner-padding col-12 col-md-6 main-slider-two">
+                        <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true, "effect": "fade", "pagination": {
+                            "el": "#main-slider-pagination",
+                            "type": "bullets",
+                            "clickable": true
+                            },
+                            "navigation": {
+                            "nextEl": "#main-slider__swiper-button-next",
+                            "prevEl": "#main-slider__swiper-button-prev"
+                            },
+                            "centeredSlides": true,
+                            "autoplay": {
+                            "delay": 6000
+                            }}'>
 
-        <div id="banner-slider" class="carousel slide" data-ride="carousel" style="top: 1vh;">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12 col-sm-12 m-auto">
-                                <div class="main-banner-coontent white banner-padding text-center">
-                                    <h1 class="lg-title">We provide <br><span class="type"
-                                            style="color: #4d5fe3;"></span></h1>
-                                    <p style="padding-inline: 150px;">EdifyTalent is R&D focussed ‘career synthesizing’
-                                        company that provides
-                                        multi-sided solutions to the global talent marketplace by connecting the Talent
-                                        value chain.
-                                    </p>
-                                    <div class="d-flex justify-content-center">
-                                        <div class="main-slider__content-btn mx-3">
-                                            <a href="#" class="thm-btn">Platform Overview</a>
-                                        </div>
-                                        <div class="main-slider__content-btn mx-3">
-                                            <a href="#" class="thm-btn">Book a Demo</a>
+                            <div class="swiper-wrapper">
+
+                                <!--Start Single Swiper Slide-->
+                                <div class="swiper-slide">
+                                    <div class="image-layer-overlay"></div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="main-slider-two__content text-center">
+                                                    <h2 class="main-slider__title">Talents</h2>
+                                                    <!-- <h2 class="main-slider-two__tagline">Attract, discover, engage, and
+                                                                                        manage talents for refined hiring through personalized /
+                                                                                        customized matchmaking.
+                                                                                    </h2> -->
+                                                    <div class="d-flex justify-content-center main-slider-two__tagline">
+                                                        <ul class="about-one__right-list list-unstyled">
+                                                            <li class="about-one__right-list-item">
+                                                                <div class="icon">
+                                                                    <span class="icon-confirmation"
+                                                                        style="color: #016DC1;"></span>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <p>Personalized opportunity matchmaking.</p>
+                                                                </div>
+                                                            </li>
+                                                            <li class="about-one__right-list-item">
+                                                                <div class="icon">
+                                                                    <span class="icon-confirmation"
+                                                                        style="color: #016DC1;"></span>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <p>Synthesize your career with us.</p>
+                                                                </div>
+                                                            </li>
+                                                            <li class="about-one__right-list-item">
+                                                                <div class="icon">
+                                                                    <span class="icon-confirmation"
+                                                                        style="color: #016DC1;"></span>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <p>Build your digital identify for new talent
+                                                                        economy
+                                                                        & resume for 4.0.</p>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <button class="thm-btn comment-form__btn">
+                                                        <a href="http://staging.edifytalent.com/account/login">Join
+                                                            Now</a>
+                                                    </button>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!--End Single Swiper Slide-->
+
+                                <!--Start Single Swiper Slide-->
+                                <div class="swiper-slide">
+                                    <div class="image-layer-overlay"></div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="main-slider-two__content">
+                                                    <h2 class="main-slider__title">Career Synthesis Platform</h2>
+                                                    <h2 class="main-slider-two__tagline">A talent-academia-industry
+                                                        convergence platform.
+                                                    </h2>
+                                                    <button class="thm-btn comment-form__btn">
+                                                        <a href="http://staging.edifytalent.com/account/login">Join
+                                                            Now</a>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End Single Swiper Slide-->
+
+                                <!--Start Single Swiper Slide-->
+                                <div class="swiper-slide">
+                                    <div class="image-layer-overlay"></div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="main-slider-two__content text-center">
+                                                    <h2 class="main-slider__title">Academia and Organizations</h2>
+                                                    <!-- <h2 class="main-slider-two__tagline">Revolutionize the way
+                                                        organizations attract and engage talents
+                                                    </h2> -->
+                                                    <div class="d-flex justify-content-center main-slider-two__tagline">
+                                                        <ul class="about-one__right-list list-unstyled">
+                                                            <li class="about-one__right-list-item">
+                                                                <div class="icon">
+                                                                    <span class="icon-confirmation"
+                                                                        style="color: #016DC1;"></span>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <p>One Stop Solution for global talent connect,
+                                                                        engagement &
+                                                                        marketing</p>
+                                                                </div>
+                                                            </li>
+                                                            <li class="about-one__right-list-item">
+                                                                <div class="icon">
+                                                                    <span class="icon-confirmation"
+                                                                        style="color: #016DC1;"></span>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <p>Smart data & ML augmented Student acquisition &
+                                                                        talent
+                                                                        recruitment</p>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <button class="thm-btn comment-form__btn">
+                                                        <a href="http://staging.edifytalent.com/account/login">Join
+                                                            Now</a>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End Single Swiper Slide-->
                             </div>
                         </div>
+                    </div>
+                    <div class="main-banner-coontent white banner-padding text-center col-6">
+                        <img src="./assets/img/banner/Image 1.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
+        <!-- /COLUMNS -->
     </div>
     <!--BANNER AREA END-->
 
 
     <!-- CLIENTS -->
-    <div class="clients module my-5">
+    <div class="clients module my-5 mb-0">
         <div class="container">
             <!-- TITLE -->
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-sm-8 col-sm-offset-2 ds-clients-title container">
                     <h2>– TRUSTED BY MOST POPULAR BRANDS –</h2>
                 </div>
-            </div>
+            </div> -->
+            <hr>
             <!-- /TITLE -->
             <!-- COLUMNS -->
-            <div class="row">
+            <div class="row pt-4">
                 <div class="col-sm-12 ds-clients">
                     <div class="ds-clients-carousel">
                         <!-- FIRST ROW -->
-                        <div class="row">
-                            <div class="col-xs-6 col-sm-2 ds-clients-item">
-                                <img src="./assets/img/client-1.png" alt="">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-xs-3 col-sm-2 ds-clients-item d-flex">
+                                <img src="./assets/img/university/university-1.png" alt="">
                             </div>
-                            <div class="col-xs-6 col-sm-2 ds-clients-item">
-                                <img src="./assets/img/client-2.png" alt="">
+                            <div class="col-xs-6 col-sm-2 ds-clients-item d-flex">
+                                <img src="./assets/img/university/university-2.png" alt="">
                             </div>
-                            <div class="col-xs-6 col-sm-2 ds-clients-item">
-                                <img src="./assets/img/client-3.png" alt="">
+                            <div class="col-xs-6 col-sm-2 ds-clients-item d-flex">
+                                <img src="./assets/img/university/university-3.png" alt="">
                             </div>
-                            <div class="col-xs-6 col-sm-2 ds-clients-item">
-                                <img src="./assets/img/client-4.png" alt="">
+                            <!-- <div class="col-xs-6 col-sm-2 ds-clients-item d-flex">
+                                <img src="./assets/img/university/university-4.png" alt="">
                             </div>
-                            <div class="col-xs-6 col-sm-2 ds-clients-item">
-                                <img src="./assets/img/client-5.png" alt="">
+                            <div class="col-xs-6 col-sm-2 ds-clients-item d-flex">
+                                <img src="./assets/img/university/university-5.png" alt="">
                             </div>
-                            <div class="col-xs-6 col-sm-2 ds-clients-item">
-                                <img src="./assets/img/client-6.png" alt="">
-                            </div>
+                            <div class="col-xs-6 col-sm-2 ds-clients-item d-flex">
+                                <img src="./assets/img/university/university-6.png" alt="">
+                            </div> -->
                         </div>
 
                     </div>
@@ -189,45 +308,116 @@
     <!-- /CLIENTS -->
 
     <!--FEATURE AREA START-->
-    <section id="feature" data-scroll-index="1">
+    <section id="feature" class="pt-0 ppppppppp" style="background-color: #E6F7FF; position: relative;">
+        <img src="assets/img/banner/Path36.png" alt="" class="img-fluid feature-one__bg" style="max-width: 100%;">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-sm-12">
-                    <div class="heading-left">
-                        <h5 class="subtitle">From anywhere of your room</h5>
-                        <h2 class="md-title">Hands-free help <br>around the house!</h2>
+            <div class="d-flex justify-content-center">
+                <div class="col-lg-10 col-sm-12">
+                    <div class="heading-left py-5">
+                        <h2 class="md-title">PRODUCTS</h2>
+                        <!-- <p class="mt-2">EdifyTalent is a R&D based ‘talentome synthesising’ company envisioned two–sided
+                            solutions to the talent market place.</p> -->
                     </div>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 wow animated fadeInUp" data-wow-delay="0.5s">
-                    <div class="feature-box">
-                        <img src="assets/img/about/feature-1.png" alt="" class="img-fluid">
+            <div class="row justify-content-center flex-column align-items-center">
+                <div class="col-lg-8 col-sm-6 wow animated fadeInUp my-3" data-wow-delay="0.5s">
+                    <div class="feature-box pt-2 d-flex flex-row px-4">
+                        <img src="assets/img/about/os_0023_31 - Copy (2).png" alt="" class="img-fluid"
+                            style="max-width: 27%;">
                         <div class="feature-content">
-                            <h4>Career synthesis platform</h4>
-                            <p>In up so discovery my middleton eagerness dejection explained. Estimating excellence ye
-                                contrasted insensible .</p>
+                            <h4 style="text-align: center;">Career Synthesis Platform</h4>
+                            <!-- <p style="text-align: center;">In up so discovery my middleton eagerness dejection
+                                explained. Estimating excellence ye
+                                contrasted insensible.</p> -->
+                            <div class="d-flex justify-content-center">
+                                <ul class="about-one__right-list list-unstyled">
+                                    <li class="about-one__right-list-item d-flex align-items-center">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Connecting talents with academia & industry.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="about-one__right-list-item d-flex align-items-center">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Holistic talent mapping.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="about-one__right-list-item d-flex align-items-center">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Value driven engagement.
+                                            </p>
+                                        </div>
+                                    </li>
+
+                                    <li class="about-one__right-list-item d-flex align-items-center">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Smart data centered talent evaluation.
+                                            </p>
+                                        </div>
+                                    </li>
+
+                                    <li class="about-one__right-list-item d-flex align-items-center">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Promoting Digital well- being.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow animated fadeInUp" data-wow-delay="0.5s">
-                    <div class="feature-box">
-                        <img src="assets/img/about/feature-2.png" alt="" class="img-fluid">
+
+                <div class="col-lg-8 col-sm-6 wow animated fadeInUp my-4" data-wow-delay="0.5s">
+                    <div class="feature-box pt-2 d-flex flex-row px-4">
+                        <img src="assets/img/about/os_0023_31 - Copy.png" alt="" class="img-fluid"
+                            style="max-width: 27%;">
                         <div class="feature-content">
-                            <h4>Marketplace & integrations</h4>
-                            <p>In up so discovery my middleton eagerness dejection explained. Estimating excellence ye
-                                contrasted insensible .</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 wow animated fadeInUp" data-wow-delay="0.5s">
-                    <div class="feature-box">
-                        <img src="assets/img/about/feature-3.jpg" alt="" class="img-fluid">
-                        <div class="feature-content">
-                            <h4>Open-source community</h4>
-                            <p>In up so discovery my middleton eagerness dejection explained. Estimating excellence ye
-                                contrasted insensible .</p>
+                            <h4 style="text-align: center;">Marketplace & Integrations</h4>
+                            <!-- <p style="text-align: center;">In up so discovery my middleton eagerness dejection
+                                explained. Estimating excellence ye
+                                contrasted insensible.</p> -->
+                            <div class="d-flex justify-content-center">
+                                <ul class="about-one__right-list list-unstyled">
+                                    <li class="about-one__right-list-item d-flex align-items-center">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Tools for team work management &
+                                                communication.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="about-one__right-list-item d-flex align-items-center">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>LMS and university portal integration for funneled
+                                                data flow.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -236,164 +426,442 @@
     </section>
     <!--FEATURE AREA END-->
 
-    <!--ABOUT AREA START-->
-    <section class="about-one clearfix">
+
+    <!--CAREER AREA START-->
+    <section style="background-color: #fff;" id="cs" data-scroll-index="1">
         <div class="container">
-            <div class="row">
-                <!-- Start About One Left-->
-                <div class="col-xl-6">
-                    <div class="about-one__left">
-                        <ul class="about-one__left-img-box list-unstyled clearfix">
-                            <li class="about-one__left-single">
-                                <div class="about-one__left-img1">
-                                    <img src="assets/img/about/about-v1-img1.jpg" alt="" />
+
+            <div class="d-flex justify-content-center">
+                <div class="col-lg-9 col-sm-12">
+                    <div class="heading-left pb-0 mb-0">
+                        <h2 class="md-title">CAREER SYNTHESIS PLATFORM</h2>
+                        <p class="mt-3 text-left">Career synthesis platform enables personalized talent journey through
+                            connecting value chain of learning and career advancement space through</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <ul class="about-one__right-list list-unstyled">
+                            <li class="about-one__right-list-item d-flex align-items-center">
+                                <div class="icon">
+                                    <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                </div>
+                                <div class="text">
+                                    <p>Personalized matchmaking of opportunities - university admissions, Internship,
+                                        funding & grants,
+                                        research & career opportunity.</p>
                                 </div>
                             </li>
-                            <li class="about-one__left-single">
-                                <div class="about-one__left-img2">
-                                    <img src="assets/img/about/about-v1-img2.jpg" alt="" />
+
+                            <li class="about-one__right-list-item d-flex align-items-center">
+                                <div class="icon">
+                                    <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                </div>
+                                <div class="text">
+                                    <p>Evaluating skill & job genome & designing – Understanding changing industry &
+                                        skill dynamics &
+                                        defining flexible pathways.</p>
+                                </div>
+                            </li>
+
+                            <li class="about-one__right-list-item d-flex align-items-center">
+                                <div class="icon">
+                                    <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                </div>
+                                <div class="text">
+                                    <p>Continuous learning – Productive acquisition of domain specific knowledge.</p>
                                 </div>
                             </li>
                         </ul>
-                        <!-- <div class="about-one__left-overlay">
-                            <div class="icon">
-                                <span class="icon-relationship"></span>
-                            </div>
-                            <div class="title">
-                                <h6>Trusted by<br><span class="odometer" data-count="8800">00</span> customers</h6>
-                            </div>
-                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <!-- Start About One Left-->
+                <div class="welcome-one__right clearfix">
+                    <!-- <div class="shape1 rotate-me"><img src="assets/img/shapes/thm-shape1.png" alt="" /></div> -->
+                    <div class="welcome-one__right-img1 mr-lg-5 mr-0">
+                        <div class="welcome-one__right-img1-inner">
+                            <img src="assets/img/about/Group 84.png" alt="" />
+                        </div>
                     </div>
                 </div>
                 <!-- End About One Left-->
+            </div>
 
-
-                <!-- Start About One Right-->
-                <div class="col-xl-6">
-                    <div class="about-one__right">
-                        <div class="section-title">
-                            <span class="section-title__tagline">Career synthesis platform</span>
-                            <h2 class="section-title__title">Personalized talent journey through <br>intelligent
-                                assistance</h2>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 wow animated fadeInUp" data-wow-delay="0.5s">
+                    <div class="feature-box" style="background-color: #d0c8eb; height: 480px;">
+                        <div class="feature-content pb-0 pt-3">
+                            <h4 style="text-align: center;">TALENT SYNAPSE</h4>
+                            <p style="text-align: center;">One-stop solution for connecting with opportunities</p>
                         </div>
-                        <div class="about-one__right-inner">
-                            <p class="about-one__right-text">We are living through a fundamental transformation in the
-                                way we work. Automation and 'thinking machines' are replacing human tasks, changing the
-                                skills that organisations are looking for in their people. The half-life of skills is
-                                shrinking fast.</p>
-                            <ul class="about-one__right-list list-unstyled">
-                                <li class="about-one__right-list-item">
-                                    <div class="icon">
-                                        <span class="icon-confirmation"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Get unlimited access to 66000+ of our top courses</p>
-                                    </div>
-                                </li>
+                        <img src="assets/img/icons/Group 86.png" alt="" class="img-fluid" style="max-width: 25%;">
+                        <div class="feature-content pb-0 pt-3">
+                            <!-- <p style="text-align: center;">University admissions, internships, scholarship, events,
+                                funding, research & Career
+                                opportunities.</p> -->
+                            <div class="d-flex justify-content-center">
+                                <ul class="about-one__right-list list-unstyled">
+                                    <li class="about-one__right-list-item d-flex">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Personalized matchmaking opportunities – University admission,
+                                                Internships, Funding & grants, Careers & opportunities.</p>
+                                        </div>
+                                    </li>
 
-                                <li class="about-one__right-list-item">
-                                    <div class="icon">
-                                        <span class="icon-confirmation"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Explore a variety of fresh educational topics</p>
-                                    </div>
-                                </li>
+                                    <li class="about-one__right-list-item d-flex">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Preference & Privacy Setting Refined search Base.</p>
+                                        </div>
+                                    </li>
 
-                                <li class="about-one__right-list-item">
-                                    <div class="icon">
-                                        <span class="icon-confirmation"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Find the best qualitfied teacher for you</p>
-                                    </div>
-                                </li>
-                            </ul>
-
-                            <!-- <div class="about-one__btn">
-                                <a href="about.html" class="thm-btn">view all courses</a>
-                            </div> -->
+                                    <li class="about-one__right-list-item d-flex">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Value added interactions</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-sm-6 wow animated fadeInUp" data-wow-delay="0.5s">
+                    <div class="feature-box" style="background-color: #a8e7dc; height: 480px;">
+                        <div class="feature-content pb-0 pt-3">
+                            <h4 class="mb-2" style="text-align: center;">KNOWLEDGE REPOSITORY</h4>
+                            <p style="text-align: center;">Publish and access academic & research content for continuous
+                                learning & productive knowledge acquisition</p>
+                        </div>
+                        <img src="assets/img/icons/Group 88.png" alt="" class="img-fluid" style="max-width: 20%;">
+                        <div class="feature-content pb-0 pt-2">
+                            <!-- <p style="text-align: center;">University admissions, internships, scholarship, events,
+                                funding, research & Career
+                                opportunities.</p> -->
+                            <div class="d-flex justify-content-center">
+                                <ul class="about-one__right-list list-unstyled mt-0">
+                                    <li class="about-one__right-list-item d-flex">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Unlimited search Database and Downloads.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="about-one__right-list-item d-flex">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Article, thesis, dissertation, course contents, Assignments, Coursework,
+                                                Research Papers, Literature Review, Capstone Projects, Case studies,
+                                                Academic Writing, etc.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow animated fadeInUp" data-wow-delay="0.5s">
+                    <div class="feature-box" style="background-color: #bee4e9; height: 480px;">
+                        <div class="feature-content pb-0 pt-3">
+                            <h4 style="text-align: center; text-transform: uppercase;">Talent – Derivative. Narrative.
+                                Analytics</h4>
+                            <p style="text-align: center;">Digital Passport for education & career marketplace.</p>
+                        </div>
+                        <img src="assets/img/icons/Group 92.png" alt="" class="img-fluid" style="max-width: 20%;">
+                        <div class="feature-content pb-0 pt-3">
+                            <!-- <p style="text-align: center;">Your digital identity for new talent economy & resume for
+                                4.0.</p> -->
+                            <div class="d-flex justify-content-center">
+                                <ul class="about-one__right-list list-unstyled">
+                                    <li class="about-one__right-list-item d-flex">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Resume for new talent economy.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="about-one__right-list-item d-flex">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Holistic & multi-dimensional talent mapping.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="about-one__right-list-item d-flex">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Talent competency visualization.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="about-one__right-list-item d-flex">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Deriving people analytics.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--CAREER AREA END-->
+
+    <!--ABOUT AREA START-->
+    <section class="about-one clearfix" id="augmented" data-scroll-index="2">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <div class="col-lg-8 col-sm-12">
+                    <div class="heading-left">
+                        <h2 class="md-title">Academia AND Organizations</h2>
+                        <p class="mt-3 mb-2">Revolutionizing higher education marketing with value driven approach
+                            for
+                            maximized ROI.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <!-- Start About One Left-->
+                <!-- <div class="col-12 d-flex align-items-center justify-content-center">
+                    <div class="about-one__right">
+                        <div class="about-one__right-inner">
+                            <ul class="about-one__right-list list-unstyled">
+                                <li class="about-one__right-list-item">
+                                    <div class="icon">
+                                        <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Single solution for marketing, lead management, customer
+                                            data & resource
+                                            management.</p>
+                                    </div>
+                                </li>
+
+                                <li class="about-one__right-list-item">
+                                    <div class="icon">
+                                        <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Easy to use interfaces to manage and market programs,
+                                            events, careers, and
+                                            News & highlights.</p>
+                                    </div>
+                                </li>
+
+                                <li class="about-one__right-list-item">
+                                    <div class="icon">
+                                        <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Admin workspace for Advanced User Management System and
+                                            E-footprint for user
+                                            activity logs. </p>
+                                    </div>
+                                </li>
+
+                                <li class="about-one__right-list-item">
+                                    <div class="icon">
+                                        <span class="icon-confirmation" style="color: #016DC1;"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Smart data & machine learning-driven student/talent
+                                            acquisition.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Start About One Left-->
+
                 <!-- End About One Right-->
+                <!-- <div class="col-xl-6">
+                    <div class="welcome-one__right clearfix">
+                        <div class="welcome-one__right-img1 wow slideInRight mr-lg-5 mr-0" data-wow-delay="100ms"
+                            data-wow-duration="2500ms">
+                            <div class="welcome-one__right-img1-inner">
+                                <img src="assets/img/about/Group 185.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- End About One Right-->
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-4 col-sm-6 wow animated fadeInUp" data-wow-delay="0.5s">
+                    <div class="feature-box pt-4" style="height: 399px;">
+                        <div class="feature-content pb-0 pt-2">
+                            <h4 style="text-align: center; text-transform: uppercase;">One-Stop Solution for global
+                                talent connect, engagement &
+                                marketing</h4>
+                        </div>
+                        <!-- <img src="assets/img/icons/Group 86.png" alt="" class="img-fluid" style="max-width: 20%;"> -->
+                        <div class="feature-content pb-0 pt-2">
+                            <!-- <p style="text-align: center;">University admissions, internships, scholarship, events,
+                                funding, research & Career
+                                opportunities.</p> -->
+                            <div class="d-flex justify-content-center">
+                                <ul class="about-one__right-list list-unstyled mt-0">
+                                    <li class="about-one__right-list-item d-flex">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #064066;"></span>
+                                        </div>
+                                        <div class="text pl-4">
+                                            <p>A central verified account to publish programs, events,
+                                                opportunities, News & highlights</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="about-one__right-list-item d-flex">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #064066;"></span>
+                                        </div>
+                                        <div class="text pl-4">
+                                            <p>Admin workspace for Advanced User Management System and E-footprint for
+                                                user activity logs.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="about-one__right-list-item d-flex">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #064066;"></span>
+                                        </div>
+                                        <div class="text pl-4">
+                                            <p>Creating alliances between institutions.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 wow animated fadeInUp" data-wow-delay="0.5s">
+                    <div class="feature-box pt-4" style="height: 399px;">
+                        <div class="feature-content pb-0 pt-2">
+                            <h4 style="text-align: center; text-transform: uppercase;">Augmented Talent Acquisition
+                            </h4>
+                        </div>
+                        <!-- <img src="assets/img/icons/Group 92.png" alt="" class="img-fluid" style="max-width: 20%;"> -->
+                        <div class="feature-content pb-0 pt-3">
+                            <div class="d-flex justify-content-center">
+                                <ul class="about-one__right-list list-unstyled">
+                                    <li class="about-one__right-list-item d-flex">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #064066;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Holistic & multi-dimensional talent Understanding.</p>
+                                        </div>
+                                    </li>
+                                    <li class="about-one__right-list-item d-flex">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #064066;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Deriving smart data & people analytics.</p>
+                                        </div>
+                                    </li>
+                                    <li class="about-one__right-list-item d-flex">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #064066;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p> Collaborative, visualization & ML driven talent evaluation.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-sm-6 wow animated fadeInUp" data-wow-delay="0.5s">
+                    <div class="feature-box pt-4" style="height: 399px;">
+                        <div class="feature-content pb-0 pt-3">
+                            <h4 style="text-align: center;text-transform: uppercase;">Marketing & Talent Intelligence &
+                                Analytics</h4>
+                        </div>
+                        <!-- <img src="assets/img/icons/Group 88.png" alt="" class="img-fluid" style="max-width: 20%;"> -->
+                        <div class="feature-content pb-0 pt-3">
+                            <!-- <p style="text-align: center;">University admissions, internships, scholarship, events,
+                                funding, research & Career
+                                opportunities.</p> -->
+                            <div class="d-flex justify-content-center">
+                                <ul class="about-one__right-list list-unstyled">
+                                    <li class="about-one__right-list-item d-flex">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #064066;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Revolutionizing higher education marketing with value driven approach.
+                                            </p>
+                                        </div>
+                                    </li>
+
+                                    <li class="about-one__right-list-item d-flex">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #064066;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Marketing analytics & insights for maximized ROI.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="about-one__right-list-item d-flex">
+                                        <div class="icon">
+                                            <span class="icon-confirmation" style="color: #064066;"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Talent analytics & intelligence for internalization & diversity strategy.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
     <!--ABOUT AREA 	END-->
 
 
-
-    <!--Start Welcome One-->
-    <section class="welcome-one">
-        <div class="container">
-            <div class="row">
-                <!--Start Welcome One Left-->
-                <div class="col-xl-6">
-                    <div class="welcome-one__left">
-                        <div class="section-title">
-                            <span class="section-title__tagline">Company Introductions</span>
-                            <h2 class="section-title__title">Augmented talent acquisition and <br>credential validation
-                                solution</h2>
-                        </div>Matchmaking of career progressing opportunities - university admissions, alternate
-                        learning pathways, internships, funding, events, careers, research, freelancing opportunities.
-                        </p>
-                        <ul class="welcome-one__left-features-box list-unstyled">
-                            <!--Start Welcome One Left Features Box Single-->
-                            <li class="welcome-one__left-features-box-single">
-                                <div class="welcome-one__left-features-box-single-icon">
-                                    <span class="icon-professor"></span>
-                                </div>
-                                <div class="welcome-one__left-features-box-single-title">
-                                    <h4>Start learning from <br>our experts</h4>
-                                </div>
-                            </li>
-                            <!--End Welcome One Left Features Box Single-->
-
-                            <!--Start Welcome One Left Features Box Single-->
-                            <li class="welcome-one__left-features-box-single">
-                                <div class="welcome-one__left-features-box-single-icon">
-                                    <span class="icon-knowledge"></span>
-                                </div>
-                                <div class="welcome-one__left-features-box-single-title">
-                                    <h4>Enhance your skills <br>with us now</h4>
-                                </div>
-                            </li>
-                            <!--End Welcome One Left Features Box Single-->
-                        </ul>
-                        <!-- <div class="welcome-one__left-btn">
-                            <a href="about.html" class="thm-btn">view all courses</a>
-                        </div> -->
-                    </div>
-                </div>
-                <!--End Welcome One Left-->
-
-                <!--Start Welcome One Right-->
-                <div class="col-xl-6">
-                    <div class="welcome-one__right clearfix">
-                        <div class="shape1 rotate-me"><img src="assets/img/shapes/thm-shape1.png" alt="" /></div>
-                        <div class="welcome-one__right-img1 wow slideInRight" data-wow-delay="100ms"
-                            data-wow-duration="2500ms">
-                            <div class="welcome-one__right-img1-inner">
-                                <img src="assets/img/about/welcome-v1-img1.jpg" alt="" />
-                            </div>
-                        </div>
-                        <div class="welcome-one__right-img2 wow zoomIn" data-wow-delay="100ms"
-                            data-wow-duration="3500ms">
-                            <img src="assets/img/about/welcome-v1-img2.jpg" alt="" />
-                        </div>
-                    </div>
-                </div>
-                <!--End Welcome One Right-->
-            </div>
-        </div>
-    </section>
-    <!--End Welcome One-->
-
-
     <!--Registration One Start-->
-    <section class="registration-one jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%">
-        <div class="registration-one__bg" style="background-image: url(assets/img/resources/registration-one-bg.jpg);">
+    <section class="registration-one jarallax" id="demo" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
+        data-scroll-index="3">
+        <div class="registration-one__bg">
+            <img src="assets/img/banner/MaskGroup1.png" alt="" class="img-fluid registration-one__image"
+                style="max-width: 20%;">
         </div>
         <div class="container">
             <div class="row">
@@ -401,13 +869,13 @@
                 <div class="col-xl-7 col-lg-7">
                     <div class="registration-one__left">
                         <div class="section-title">
-                            <span class="section-title__tagline">Get Free Registration</span>
-                            <h2 class="section-title__title">Register your Account<br> Get free Access to <span
-                                    class="odometer" data-count="66000">00</span> <br>Online Courses</h2>
+                            <span class="section-title__tagline">Get free account</span>
+                            <h2 class="section-title__title">Register your Account<br> Get free Access to
+                                <br>Edifytalent platform
+                            </h2>
                         </div>
-                        <p class="registration-one__left-text">There are many variations of passages of lorem ipsum
-                            available but the majority have suffered alteration in some form.</p>
-                        <div class="registration-one__left-transform-box">
+                        <!-- <p class="registration-one__left-text">Contact us for EdifyTalent Platform Demo</p> -->
+                        <!-- <div class="registration-one__left-transform-box">
                             <div class="registration-one__left-transform-box-icon">
                                 <span class="icon-online-course"></span>
                             </div>
@@ -416,7 +884,7 @@
                                 <p>Discover creative projects limited editions of 100 <br>from artists, designers,
                                     and more.</p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <!--End Registration One Left-->
@@ -427,10 +895,10 @@
                         data-wow-duration="2500ms">
                         <div class="registration-one__right-form">
                             <div class="title-box">
-                                <h4>Fill your Registration</h4>
+                                <h4>Register</h4>
                             </div>
                             <div class="form-box">
-                                <form method="post" action="#">
+                                <form method="post" action="index.html">
                                     <div class="form-group">
                                         <input type="text" name="username" placeholder="Your Name" required="">
                                     </div>
@@ -443,8 +911,8 @@
                                     <div class="form-group">
                                         <textarea placeholder="Comment"></textarea>
                                     </div>
-                                    <button class="registration-one__right-form-btn" name="submit-form">
-                                        <span class="thm-btn">apply for demo</span>
+                                    <button class="registration-one__right-form-btn" type="submit" name="submit-form">
+                                        <span class="thm-btn">Register</span>
                                     </button>
                                 </form>
                             </div>
@@ -460,40 +928,24 @@
 
     <!--Categories One Start-->
     <section class="categories-one">
+        <!-- <div class="categories-one__pattern"><img src="assets/img/pattern/testimonials-two-left-pattern.png" alt="" /> -->
+        </div>
         <div class="container">
             <div class="section-title text-center">
-                <span class="section-title__tagline">Our Awesome Team</span>
+                <!-- <span class="section-title__tagline">Our Awesome Team</span> -->
                 <h2 class="section-title__title">OUR TEAM</h2>
             </div>
             <div class="row">
                 <div class="col-xl-12">
                     <div class="categories-one__wrapper">
                         <div class="row">
-                            <!--Start Single Categories One-->
-                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0ms"
-                                data-wow-duration="1500ms">
-                                <div class="categories-one__single">
-                                    <div class="categories-one__single-img">
-                                        <img src="assets/img/resources/categories-v1-img1.jpg" alt="" />
-                                        <div class="categories-one__single-overlay">
-                                            <div class="categories-one__single-overlay-text1">
-                                                <p>NIYAS SALEEM</p>
-                                            </div>
-                                            <div class="categories-one__single-overlay-text2">
-                                                <h4>Co founder</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single Categories One-->
 
                             <!--Start Single Categories One-->
                             <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms"
                                 data-wow-duration="1500ms">
                                 <div class="categories-one__single">
                                     <div class="categories-one__single-img">
-                                        <img src="assets/img/resources/categories-v1-img2.jpg" alt="" />
+                                        <img src="assets/img/resources/Team_v1.png" alt="" />
                                         <div class="categories-one__single-overlay">
                                             <div class="categories-one__single-overlay-text1">
                                                 <p>SANJAR MOHAMED AB</p>
@@ -508,17 +960,36 @@
                             <!--End Single Categories One-->
 
                             <!--Start Single Categories One-->
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
+                                <div class="categories-one__single">
+                                    <div class="categories-one__single-img">
+                                        <img src="assets/img/resources/Team_v2.png" alt="" />
+                                        <div class="categories-one__single-overlay">
+                                            <div class="categories-one__single-overlay-text1">
+                                                <p>NIYAS SALEEM</p>
+                                            </div>
+                                            <div class="categories-one__single-overlay-text2">
+                                                <h4>Co founder</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single Categories One-->
+
+                            <!--Start Single Categories One-->
                             <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
                                 data-wow-duration="1500ms">
                                 <div class="categories-one__single">
                                     <div class="categories-one__single-img">
-                                        <img src="assets/img/resources/categories-v1-img3.jpg" alt="" />
+                                        <img src="assets/img/resources/Team_v3.png" alt="" />
                                         <div class="categories-one__single-overlay">
                                             <div class="categories-one__single-overlay-text1">
                                                 <p>NIDHIN JOSEPH</p>
                                             </div>
                                             <div class="categories-one__single-overlay-text2">
-                                                <h4>UX/UI Designer</h4>
+                                                <h4>Senior UX/UI Designer</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -531,13 +1002,89 @@
                                 data-wow-duration="1500ms">
                                 <div class="categories-one__single">
                                     <div class="categories-one__single-img">
-                                        <img src="assets/img/resources/categories-v1-img4.jpg" alt="" />
+                                        <img src="assets/img/resources/Team_v4.png" alt="" />
                                         <div class="categories-one__single-overlay">
                                             <div class="categories-one__single-overlay-text1">
                                                 <p>NIKHIL ROY</p>
                                             </div>
                                             <div class="categories-one__single-overlay-text2">
                                                 <h4>Senior Developer</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single Categories One-->
+
+                            <!--Start Single Categories One-->
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
+                                <div class="categories-one__single">
+                                    <div class="categories-one__single-img">
+                                        <img src="assets/img/resources/Team_v5.png" alt="" />
+                                        <div class="categories-one__single-overlay">
+                                            <div class="categories-one__single-overlay-text1">
+                                                <p>RAM SUNDAR</p>
+                                            </div>
+                                            <div class="categories-one__single-overlay-text2">
+                                                <h4>Academic Head</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single Categories One-->
+
+                            <!--Start Single Categories One-->
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
+                                <div class="categories-one__single">
+                                    <div class="categories-one__single-img">
+                                        <img src="assets/img/resources/Team_v6.png" alt="" />
+                                        <div class="categories-one__single-overlay">
+                                            <div class="categories-one__single-overlay-text1">
+                                                <p>SOORAJ VISWANATH</p>
+                                            </div>
+                                            <div class="categories-one__single-overlay-text2">
+                                                <h4>Front-End Developer</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single Categories One-->
+
+                            <!--Start Single Categories One-->
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
+                                <div class="categories-one__single">
+                                    <div class="categories-one__single-img">
+                                        <img src="assets/img/resources/Team_v7.png" alt="" />
+                                        <div class="categories-one__single-overlay">
+                                            <div class="categories-one__single-overlay-text1">
+                                                <p>HAFIS MUHAMMED</p>
+                                            </div>
+                                            <div class="categories-one__single-overlay-text2">
+                                                <h4>Front-End Developer</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single Categories One-->
+
+                            <!--Start Single Categories One-->
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
+                                <div class="categories-one__single">
+                                    <div class="categories-one__single-img">
+                                        <img src="assets/img/resources/Team_v8.png" alt="" />
+                                        <div class="categories-one__single-overlay">
+                                            <div class="categories-one__single-overlay-text1">
+                                                <p>MANISH M L</p>
+                                            </div>
+                                            <div class="categories-one__single-overlay-text2">
+                                                <h4>Content Creator</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -556,7 +1103,7 @@
     <!--Categories One End-->
 
     <!-- PARALLAX VIDEO AREA START-->
-    <section id="parallax" class="bg-feature">
+    <!-- <section id="parallax" class="bg-feature" data-scroll-index="2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-5 col-md-6">
@@ -577,11 +1124,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- PARALLAX VIDEO AREA END-->
 
     <!--Start Contact Details One-->
-    <section class="contact-details-one">
+    <section class="contact-details-one" id="contact" data-scroll-index="5">
         <div class="container">
             <div class="row">
                 <!--Start Single Contact Details One-->
@@ -591,7 +1138,7 @@
                             <span class="icon-chat"></span>
                         </div>
                         <div class="contact-details-one__single-text">
-                            <h4><a href="tel:123456789">92 666 888 0000</a></h4>
+                            <h4><a href="tel:+358 44 2371 585">+358 44 2371 585</a></h4>
                             <p>Call Anytime</p>
                         </div>
                     </div>
@@ -605,7 +1152,7 @@
                             <span class="icon-message-1"></span>
                         </div>
                         <div class="contact-details-one__single-text">
-                            <h4><a href="mailto:info@templatepath.com">info@company.com</a></h4>
+                            <h4><a href="mailto:info@templatepath.com">hello@edifytalent.com</a></h4>
                             <p>Send Email</p>
                         </div>
                     </div>
@@ -619,7 +1166,7 @@
                             <span class="icon-address"></span>
                         </div>
                         <div class="contact-details-one__single-text">
-                            <h4>88 broklyn street, USA</h4>
+                            <h4>Vaasa, 65100, Finland</h4>
                             <p>Call Anytime</p>
                         </div>
                     </div>
@@ -637,15 +1184,15 @@
                 <div class="col-xl-4 col-lg-4">
                     <div class="contact-page__left">
                         <div class="section-title">
-                            <span class="section-title__tagline">Send a Message</span>
+                            <span class="section-title__tagline">Request Demo</span>
                             <h2 class="section-title__title">We Always <br>Ready to Hear <br>From You</h2>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-8 col-lg-8">
                     <div class="contact-page__right">
-                        <form action="assets/inc/sendemail.php" class="comment-one__form contact-form-validated"
-                            novalidate="novalidate">
+                        <form action="assets/inc/sendemail.php" method="post"
+                            class="comment-one__form contact-form-validated" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="comment-form__input-box">
@@ -675,7 +1222,7 @@
                                     <div class="comment-form__input-box">
                                         <textarea name="message" placeholder="Write message"></textarea>
                                     </div>
-                                    <button class="thm-btn comment-form__btn">Submit Comment</button>
+                                    <button class="thm-btn" type="submit">Request demo</button>
                                 </div>
                             </div>
                         </form>
@@ -689,7 +1236,7 @@
 
     <!--Start Footer One-->
     <footer class="footer-one">
-        <div class="footer-one__bg" style="background-image: url(assets/img/backgrounds/footer-v1-bg.jpg);">
+        <div class="footer-one__bg">
         </div><!-- /.footer-one__bg -->
         <div class="footer-one__top">
             <div class="container">
@@ -707,13 +1254,11 @@
                     <!--Start Footer Widget Column-->
                     <div class="col-xl-2 col-lg-4 col-md-4 wow animated fadeInUp" data-wow-delay="0.3s">
                         <div class="footer-widget__column footer-widget__courses">
-                            <h3 class="footer-widget__title">Courses</h3>
+                            <h3 class="footer-widget__title">Information</h3>
                             <ul class="footer-widget__courses-list list-unstyled">
-                                <li><a href="#">UI/UX Design</a></li>
-                                <li><a href="#">WordPress Development</a></li>
-                                <li><a href="#">Business Strategy</a></li>
-                                <li><a href="#">Software Development</a></li>
-                                <li><a href="#">Business English</a></li>
+                                <li><a href="#">Talents</a></li>
+                                <li><a href="#">Academia</a></li>
+                                <li><a href="#">Organization</a></li>
                             </ul>
                         </div>
                     </div>
@@ -724,11 +1269,9 @@
                         <div class="footer-widget__column footer-widget__links">
                             <h3 class="footer-widget__title">Links</h3>
                             <ul class="footer-widget__links-list list-unstyled">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="#">Overview</a></li>
-                                <li><a href="teachers-1.html">Teachers</a></li>
-                                <li><a href="#">Join Us</a></li>
-                                <li><a href="news.html">Our News</a></li>
+                                <li><a href="#">Ecosystem</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Events</a></li>
                             </ul>
                         </div>
                     </div>
@@ -738,9 +1281,11 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.7s">
                         <div class="footer-widget__column footer-widget__contact">
                             <h3 class="footer-widget__title">Contact</h3>
-                            <p class="text">88 broklyn street, New York USA</p>
-                            <p><a href="mailto:info@templatepath.com">needhelp@company.com</a></p>
-                            <p class="phone"><a href="tel:123456789">92 888 666 0000</a></p>
+                            <p class="text">EdifyTalent Oy
+                                Asemakatu 50 D
+                                Vaasa, 65100, Finland</p>
+                            <p><a href="mailto:info@templatepath.com">hello@edifytalent.com</a></p>
+                            <p class="phone"><a href="tel:1+358 44 2371 585">+358 44 2371 585</a></p>
                         </div>
                     </div>
                     <!--End Footer Widget Column-->
@@ -749,9 +1294,12 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.9s">
                         <div class="footer-widget__column footer-widget__social-links">
                             <ul class="footer-widget__social-links-list list-unstyled clearfix">
-                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/edifytalent"><i class="fab fa-facebook"></i></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/company/edifytalent/"><i
+                                            class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="https://www.instagram.com/edify.talent/"><i
+                                            class="fab fa-instagram"></i></a></li>
                                 <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
                             </ul>
                         </div>
@@ -799,15 +1347,15 @@
     <script src="assets/ventors/swiper/swiper.min.js"></script>
     <script src="assets/ventors/wow/wow.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- <script>
         var typed = new Typed('.type', {
-            // Waits 1000ms after typing "First"
-            strings: ['Greater visibility.', 'Refined matchmaking.', 'Simplified hiring.'],
+            strings: ['Greater visibility', 'Refined matchmaking', 'Simplified hiring'],
             typeSpeed: 100,
-            backSpedd: 70,
+            backSpeed: 70,
             loop: true
         });
-    </script>
+    </script> -->
 
 
 </body>
